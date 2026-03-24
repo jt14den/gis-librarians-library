@@ -127,7 +127,7 @@ p <- size_summary %>%
              text = paste0(size, "<br>", n_with, " of ", n, " institutions<br>",
                            percent(pct, accuracy = 1)))) +
   geom_col(show.legend = FALSE) +
-  geom_text(aes(label = paste0(n_with, "/", n)), vjust = -0.4, size = 3.5) +
+  geom_text(aes(label = paste0(n_with, "/", n)), vjust = 1.5, size = 3.5, color = "white") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1)) +
   scale_fill_manual(values = c(
     "Small"      = "#d9edf7",
@@ -175,7 +175,7 @@ p2 <- sector_summary %>%
              text = paste0(sector, "<br>", n_with, " of ", n, "<br>",
                            percent(pct, accuracy = 1)))) +
   geom_col(width = 0.5, show.legend = FALSE) +
-  geom_text(aes(label = paste0(n_with, "/", n)), vjust = -0.4, size = 4) +
+  geom_text(aes(label = paste0(n_with, "/", n)), vjust = 1.5, size = 4, color = "white") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1)) +
   scale_fill_manual(values = c("Public" = "#2c7bb6", "Private" = "#74c476")) +
   labs(
@@ -210,7 +210,7 @@ p3 <- type_summary %>%
              text = paste0(type_simple, "<br>", n_with, " of ", n, "<br>",
                            percent(pct, accuracy = 1)))) +
   geom_col(fill = "#2c7bb6") +
-  geom_text(aes(label = paste0(n_with, "/", n)), hjust = -0.15, size = 3.5) +
+  geom_text(aes(label = paste0(n_with, "/", n)), hjust = 1.3, size = 3.5, color = "white") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1.1)) +
   coord_flip() +
   labs(
@@ -238,7 +238,7 @@ p4 <- team_summary %>%
                            n_insts, " institutions (",
                            percent(pct, accuracy = 1), ")"))) +
   geom_col(fill = "#2c7bb6") +
-  geom_text(aes(label = n_insts), vjust = -0.4, size = 4) +
+  geom_text(aes(label = n_insts), vjust = 1.5, size = 4, color = "white") +
   labs(
     x = "GIS team size",
     y = "Number of institutions",
@@ -292,7 +292,7 @@ p5 <- tier_data %>%
              text = paste0(rd_tier, "<br>", n_with, " of ", n, "<br>",
                            percent(pct, accuracy = 1)))) +
   geom_col(fill = "#2c7bb6") +
-  geom_text(aes(label = paste0(n_with, "/", n)), vjust = -0.4, size = 3.5) +
+  geom_text(aes(label = paste0(n_with, "/", n)), vjust = 1.5, size = 3.5, color = "white") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1.1)) +
   labs(
     x = "HERD R&D Expenditure Tier (FY2024)",
@@ -576,6 +576,12 @@ peers %>%
   row_spec(which(peers$Institution == "University of California-Los Angeles"),
            bold = TRUE, background = "#fef9e7")
 ```
+
+One detail in that table is worth sitting with. Several of these institutions also operate dedicated campus GIS centers alongside their library staff. Berkeley has the Geospatial Innovation Facility (GIF). NC State has the Center for Geospatial Analytics. Harvard has the Center for Geographic Analysis. These are substantial, well-resourced operations. And none of them replaced the library GIS position. Berkeley has the GIF and still employs two library GIS staff.
+
+That's because the two functions don't do the same thing. A campus GIS center runs research projects, trains specialists, and builds tools. Library GIS staff support researchers across every department who aren't GIS specialists, provide data access and curation, consult on projects that cross disciplinary lines, and maintain the documentation — metadata, provenance, format guides — that makes spatial data usable years after a project ends. Peer institutions treat these as complementary because they are.
+
+UCLA has neither a dedicated campus GIS center nor library GIS support. It's the only institution in this peer group running without either.
 
 ### UCLA's research profile
 
