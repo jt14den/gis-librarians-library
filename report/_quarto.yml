@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "GIS Librarians at US R1 Universities"
+  description: "A directory and analysis of dedicated GIS librarians at Carnegie R1 research institutions"
+  favicon: favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Report
+      - href: directory.qmd
+        text: Full Directory
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    code-fold: true
+    code-summary: "Show code"
+    fig-width: 8
+    fig-height: 5
+    embed-resources: false

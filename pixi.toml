@@ -1,0 +1,23 @@
+[project]
+name = "gis-librarians-library"
+version = "0.1.0"
+description = "GIS librarians directory and analysis pipeline"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+[dependencies]
+r-base = ">=4.4"
+quarto = ">=1.5"
+r-tidyverse = "*"
+r-leaflet = "*"
+r-reactable = "*"
+r-plotly = "*"
+r-kableExtra = "*"
+r-scales = "*"
+r-tidygeocoder = "*"
+r-htmltools = "*"
+
+[tasks]
+data-prep = "Rscript report/data-prep.R"
+render = "quarto render report/"
+build = { depends-on = ["data-prep", "render"] }

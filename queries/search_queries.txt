@@ -1,0 +1,12 @@
+site:{institution_domain} "GIS Librarian"
+site:{institution_domain} geospatial librarian
+site:{institution_domain} "spatial data" librarian
+site:{institution_domain} "map librarian"
+site:{institution_domain} "maps and data"
+site:{institution_domain} "GIS specialist" library
+site:{institution_domain} LibGuides GIS librarian
+site:{institution_domain} LibGuides geospatial
+site:{institution_domain} directory GIS library
+site:{institution_domain} subject librarians GIS
+site:{institution_domain} "Digital Scholarship" GIS
+site:{institution_domain} "geodata" librarian

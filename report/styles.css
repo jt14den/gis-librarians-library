@@ -1,0 +1,50 @@
+/* GIS Librarians Report — custom styles */
+
+/* Callout / highlight box for key stats */
+.stat-box {
+  background: #f0f4f8;
+  border-left: 4px solid #2c7bb6;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.stat-box .stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c7bb6;
+  line-height: 1;
+}
+
+.stat-box .stat-label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+/* UCLA highlight */
+.ucla-callout {
+  background: #fef9e7;
+  border-left: 4px solid #2774AE;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Summary stat grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Table styling */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Map container */
+.leaflet-container {
+  border-radius: 6px;
+}

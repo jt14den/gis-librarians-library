@@ -1,0 +1,21 @@
+Subject: GIS Librarian Directory - [Your Organization]
+
+Hello [Name],
+
+I am [Your Name] from [Your Organization]. I am compiling a directory of GIS and geospatial librarians at R1 university libraries to support collaboration and networking.
+
+Your public contact information was identified from [Source]:
+
+- Name: [Name]
+- Title: [Title]
+- Institution: [Institution]
+- Profile: [Profile URL]
+
+If you prefer not to be included in this directory or contacted further, reply and I will remove your information.
+
+If the details above need correction, I would appreciate any updates.
+
+Thank you,
+[Your Name]
+[Affiliation]
+[Contact Information]

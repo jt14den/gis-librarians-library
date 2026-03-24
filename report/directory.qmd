@@ -1,0 +1,56 @@
+---
+title: "GIS Librarian Directory"
+subtitle: "All verified GIS librarians and specialists at US R1 universities"
+date: today
+date-format: "MMMM D, YYYY"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(reactable)
+library(htmltools)
+
+people <- read_csv("../output/verified.csv", show_col_types = FALSE) %>%
+  mutate(across(where(is.character), ~replace_na(., "")))
+```
+
+This table lists all **`r nrow(people)` GIS librarians and specialists** identified at Carnegie R1 research institutions. Use the search box and column filters to explore. Click a row to expand notes.
+
+```{r directory-table}
+reactable(
+  people %>%
+    select(Name, `Title/Role`, Institution, Department = `Department/Unit`,
+           Email, `Profile URL`, `Last-Checked Date`, Notes),
+  searchable = TRUE,
+  filterable = TRUE,
+  sortable   = TRUE,
+  striped    = TRUE,
+  highlight  = TRUE,
+  defaultPageSize = 25,
+  columns = list(
+    Name = colDef(minWidth = 150, sticky = "left"),
+    `Title/Role` = colDef(minWidth = 200),
+    Institution  = colDef(minWidth = 220),
+    Department   = colDef(minWidth = 180),
+    Email = colDef(
+      minWidth = 180,
+      cell = function(value) {
+        if (nchar(value) > 0) tags$a(href = paste0("mailto:", value), value) else ""
+      }
+    ),
+    `Profile URL` = colDef(
+      name = "Profile",
+      minWidth = 80,
+      cell = function(value) {
+        if (nchar(value) > 0) tags$a(href = value, target = "_blank", "Link") else ""
+      }
+    ),
+    `Last-Checked Date` = colDef(name = "Checked", minWidth = 100),
+    Notes = colDef(minWidth = 200)
+  )
+)
+```
+
+---
+
+*Data collected March 2026. Corrections and additions welcome — please open an issue on [GitHub](https://github.com/timdennis/gis-librarians-library).*
