@@ -613,17 +613,21 @@ Calendly records from the position's last academic year (September 2023 through 
 | Data wrangling & cleaning | 5 | Census data extraction; historical data digitization; spatial panel regression |
 | Coding & programming | 6 | Python, R, machine learning model selection; sentiment analysis; spider plots for oncology research |
 
-The range of departments is worth sitting with: urban planning, oncology, digital humanities, ecology, public health, earth sciences, social sciences, community organizations. This wasn't a GIS specialist serving a handful of geography grad students. It was research support spread across a significant portion of the campus.
+Urban planning, oncology, digital humanities, ecology, public health, earth sciences, social sciences, community organizations. This wasn't a GIS specialist serving a handful of geography grad students. It was research support spread across a significant portion of the campus.
+
+The Calendly data captures consultations but not the infrastructure work running alongside them. The position also managed UCLA's access to LARIAC (the Los Angeles Regional Imagery Acquisition Consortium's high-resolution aerial imagery and LiDAR dataset) through the Data Science Center. The DSC still provisions accounts through EagleView and maintains the data assets in storage. What it can no longer provide is the domain expertise that makes those assets usable. Dr. Yao handled that side: explaining what format a file is in, how LiDAR point clouds get converted to elevation models, what the difference is between the DSM and DEM products, which LARIAC vintage is appropriate for a given research question. Researchers can still get an account. They just can't get help knowing what to do with what they find.
+
+There's a broader argument here that gets lost when the focus stays on platform governance: why the library specifically, rather than OARC or IT? IT keeps servers running. OARC supports computational workflows. What libraries do that neither of those units does is describe data so it can be found, understood, and used years after the project that created it has ended. The DSC's [LARIAC documentation](https://storymaps.arcgis.com/stories/d200175d87ca4294bfc9cb32407d311d) makes the point concretely: it's a StoryMap covering three generations of aerial imagery, their formats, access methods, and lineage from 30+ LA County departments. That documentation is what a researcher relies on when they come back to LARIAC files five years later, or when a grad student needs to figure out how LARIAC 4 point clouds differ from LARIAC 6 oblique imagery. Without it, the data effectively disappears. Metadata, provenance, lifecycle documentation: this is what librarians are trained to do, and what no other campus unit is set up to provide.
 
 ### The ArcGIS Online crisis
 
-Some context on how this happened. In 2022, Dr. Zhiyuan Yao, working with colleagues in the Library and research computing, pushed through a proposal to move ArcGIS from a fragmented, cost-recovery model to a campus-wide single sign-on (SSO) system. Before the change, 66 departments each managed their own licenses. Students had to email an OIT staff member and wait for manual account creation. Dr. Yao was handling roughly 2.5 account-request emails per day on top of her other work, and the 2022 proposal explicitly noted that the one-admin model was "unsustainable."
+Here's how the platform got to that point. In 2022, Dr. Zhiyuan Yao, working with colleagues in the Library and research computing, pushed through a proposal to move ArcGIS from a fragmented, cost-recovery model to a campus-wide single sign-on (SSO) system. Before the change, 66 departments each managed their own licenses. Students had to email an OIT staff member and wait for manual account creation. Dr. Yao was handling roughly 2.5 account-request emails per day on top of her other work, and the 2022 proposal explicitly noted that the one-admin model was "unsustainable."
 
 The SSO transition worked. ArcGIS Online went from fewer than 100 active users in 2019 to over 900 in 2021 and 1,145 by April 2022, with growth accelerating after the SSO launch. The site license ($15,000/year) was centralized. The friction was gone. Usage kept climbing.
 
 Then the GIS librarian position was eliminated in 2024. The platform didn't break because of a technical failure. It broke because the role that administered it was removed. Platform governance, user lifecycle management, and retention policy were never transferred to another unit when the position was cut. They simply stopped happening.
 
-By December 2025, UCLA's ArcGIS Online environment was at 230–240% of its licensed storage capacity and growing at 5–10% per month. No one owned the platform. No retention policies existed. An internal OARC report prepared for the Executive Director of Research Computing put it plainly:
+An internal OARC report prepared for the Executive Director of Research Computing put it plainly:
 
 > *"Without formal action, ArcGIS risks possible service disruption, degraded performance, and potential charges under Esri's institutional terms."*
 
@@ -642,6 +646,7 @@ Every other UC campus centralizes ArcGIS administration in its library or resear
 ::: {.callout-warning}
 ## What happens if nothing changes
 
+
 The storage purchase under consideration ($32,400/year) buys capacity, not governance. Without a person to manage the platform, the same growth dynamic resumes immediately after purchase. UCLA would be paying $47,400/year to maintain a degraded, unmanaged system that gets worse every month.
 
 Beyond ArcGIS:
@@ -653,12 +658,6 @@ Beyond ArcGIS:
 
 The cost of the position is roughly twice the annual cost of the storage patch. The patch fixes nothing. The position fixes the problem and restores every service the 2024 cut eliminated.
 :::
-
-
-
-ArcGIS Online is one layer of the problem. UCLA also manages access to LARIAC (the Los Angeles Regional Imagery Acquisition Consortium's high-resolution aerial imagery and LiDAR dataset) through the Data Science Center. The DSC still provisions accounts through EagleView and maintains the data assets in storage. What it can no longer provide is the domain expertise that makes those assets usable. Dr. Yao handled that side: explaining what format a file is in, how LiDAR point clouds get converted to elevation models, what the difference is between the DSM and DEM products, which LARIAC vintage is appropriate for a given research question. Researchers can still get an account. They just can't get help knowing what to do with what they find.
-
-There's a separate argument here that gets lost when the focus stays on platform governance: why the library specifically, rather than OARC or IT? IT keeps servers running. OARC supports computational workflows. What libraries do that neither of those units does is describe data so it can be found, understood, and used years after the project that created it has ended. The DSC's [LARIAC documentation](https://storymaps.arcgis.com/stories/d200175d87ca4294bfc9cb32407d311d) makes the point concretely: it's a StoryMap covering three generations of aerial imagery, their formats, access methods, and lineage from 30+ LA County departments. That documentation is what a researcher relies on when they come back to LARIAC files five years later, or when a grad student needs to figure out how LARIAC 4 point clouds differ from LARIAC 6 oblique imagery. Without it, the data effectively disappears. Metadata, provenance, lifecycle documentation: this is what librarians are trained to do, and what no other campus unit is set up to provide.
 
 ---
 
