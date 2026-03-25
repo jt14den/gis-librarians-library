@@ -484,7 +484,7 @@ Rather than hire the GIS assistant the 2018 report anticipated, UCLA eliminated 
 
 ### The University of California system
 
-UCSF is a health-sciences campus with no undergraduates, so its absence here isn't notable. Of the nine comprehensive UC campuses, six have dedicated GIS librarians. Merced has a position posted. Santa Cruz has nothing. UCLA has nothing, and unlike the others, it used to.
+UCSF is a health-sciences campus with no undergraduates, so its absence here isn't notable. Of the nine comprehensive UC campuses, six have dedicated GIS librarians. Merced has a position posted. Riverside has one current person and a replacement search open. Santa Cruz has nothing. UCLA has nothing, and unlike the others, it used to.
 
 ```{r uc-table}
 uc_data <- inst %>%
@@ -501,9 +501,13 @@ uc_data <- inst %>%
   ) %>%
   mutate(
     campus = str_remove(Institution, "University of California-"),
-    status = if_else(has_gis,
-                     paste0("✓ ", coalesce(as.character(n_staff), "0"), " staff"),
-                     "✗ None"),
+    status = case_when(
+      has_gis & Institution == "University of California-Riverside" ~
+        paste0("✓ ", coalesce(as.character(n_staff), "1"), " staff (replacement search open)"),
+      has_gis ~ paste0("✓ ", coalesce(as.character(n_staff), "1"), " staff"),
+      Institution == "University of California-Merced" ~ "✗ None (position posted)",
+      TRUE ~ "✗ None"
+    ),
     staff_names = replace_na(staff_names, "—")
   ) %>%
   select(campus, size, status, staff_names) %>%
