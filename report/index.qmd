@@ -45,7 +45,7 @@ ucla_lon <- -118.4427
 ::: {.callout-important}
 ## Finding and Recommendation
 
-In 2024, UCLA cut its dedicated GIS librarian position. It's the only UC campus to have done so, and the data in this report show it's an outlier among national research peers as well.
+In 2024, UCLA cut its dedicated GIS librarian position. It's the only UC campus that previously had a dedicated GIS librarian and eliminated the role, and the data in this report show it's an outlier among national research peers as well.
 
 The fallout is documented. By December 2025, UCLA's ArcGIS Online platform had grown to 230–240% of its licensed storage capacity with no one managing it: no governance, no retention policy, no designated owner. An internal OARC report to UCLA leadership listed the vacant GIS librarian as a root cause. The proposed patch, buying more storage from Esri, runs $32,400/year and doesn't restore any of the support the position actually provided.
 
@@ -459,7 +459,7 @@ leaflet(map_data) %>%
 
 What went with it was the work Dr. Zhiyuan Yao had built: GIS instruction for courses, research consultations, workshop programming, and administration of the campus ArcGIS Online account she had grown from fewer than 100 users to over 1,100. By late 2025, with nobody managing the platform, ArcGIS Online had grown to 230–240% of its licensed storage limit. An internal OARC report to UCLA leadership identified the vacant position as a root cause. These aren't hypothetical risks; they're already playing out.
 
-UCLA is the only UC campus that had a GIS librarian and eliminated the role. UC Merced, which never had one, is now actively hiring. Every institution UCLA competes with for rankings, faculty, and research funding has kept the position; several have expanded it.
+UCLA is the only UC campus that had a GIS librarian and eliminated the role. UC Santa Cruz and UC Merced never had dedicated GIS librarians; Merced now has a position posted. Every institution UCLA competes with directly for rankings, faculty, and research funding has a dedicated GIS librarian; several have expanded to multi-person teams.
 :::
 
 ### A six-year track record, then erasure
