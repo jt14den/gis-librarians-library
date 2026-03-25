@@ -52,6 +52,18 @@ The fallout is documented. By December 2025, UCLA's ArcGIS Online platform had g
 **Recommendation:** Restore the GIS librarian position. At a UC salary of roughly $80,000–$115,000/year, the cost is less than three times the storage band-aid, and it actually fixes the problem.
 :::
 
+::: {.callout-warning}
+## What is breaking down now
+
+This isn't a future risk. The gaps are active:
+
+- **ArcGIS Online** is at 230–240% of licensed storage capacity, growing 5–10% per month. No governance exists, no retention policy, no designated owner. An internal OARC report already names the vacant GIS librarian as a root cause.
+- **LARIAC access**: the Data Science Center still provisions EagleView accounts, but no one can help researchers understand what they're looking at. Domain expertise — which LiDAR vintage to use, how to process point clouds, what each product is good for — left with the position.
+- **Research consultations**: roughly 35 per year across urban planning, ecology, public health, digital humanities, and community organizations. That number is now zero.
+- **GIS instruction**: course-integrated sessions, workshops, and GIS Day programming. None of this has been picked up by another unit.
+- **Data lifecycle support**: metadata, provenance documentation, and preservation planning for spatial datasets produced by UCLA researchers. Without a librarian managing it, the datasets are still being created; they're just no longer being described in ways that make them findable or reusable.
+:::
+
 ## Overview
 
 This report documents the presence or absence of dedicated GIS librarians at all **`r n_total` Carnegie R1 research institutions** in the United States. Data were collected through systematic review of institutional library staff directories, subject guides, and library websites in March 2026.
@@ -139,7 +151,7 @@ p <- size_summary %>%
   labs(
     x = "Institution Size (Carnegie)",
     y = "Share with dedicated GIS librarian",
-    title = "Larger R1 institutions are far more likely to have dedicated GIS support"
+    title = "The bigger the university, the more likely it has dedicated GIS support"
   ) +
   theme_minimal(base_size = 13)
 
@@ -157,36 +169,6 @@ size_summary %>%
   ) %>%
   kbl() %>%
   kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE)
-```
-
-### By Sector (Public vs. Private)
-
-```{r sector-chart}
-sector_summary <- inst %>%
-  group_by(sector) %>%
-  summarise(
-    n = n(),
-    n_with = sum(has_gis),
-    pct = n_with / n,
-    .groups = "drop"
-  )
-
-p2 <- sector_summary %>%
-  ggplot(aes(x = sector, y = pct, fill = sector,
-             text = paste0(sector, "<br>", n_with, " of ", n, "<br>",
-                           percent(pct, accuracy = 1)))) +
-  geom_col(width = 0.5, show.legend = FALSE) +
-  geom_text(aes(y = pct / 2, label = paste0(n_with, "/", n)),
-            vjust = 0.5, size = 4, color = "white", fontface = "bold") +
-  scale_y_continuous(labels = percent_format(), limits = c(0, 1)) +
-  scale_fill_manual(values = c("Public" = "#2c7bb6", "Private" = "#74c476")) +
-  labs(
-    x = NULL, y = "Share with dedicated GIS librarian",
-    title = "Public R1s are somewhat more likely to have dedicated GIS support"
-  ) +
-  theme_minimal(base_size = 13)
-
-ggplotly(p2, tooltip = "text")
 ```
 
 ### By Institutional Type
@@ -218,7 +200,7 @@ p3 <- type_summary %>%
   coord_flip() +
   labs(
     x = NULL, y = "Share with dedicated GIS librarian",
-    title = "Most large comprehensive R1s have dedicated GIS support"
+    title = "Large comprehensive R1s without a GIS librarian are the exception"
   ) +
   theme_minimal(base_size = 13)
 
@@ -246,7 +228,7 @@ p4 <- team_summary %>%
   labs(
     x = "GIS team size",
     y = "Number of institutions",
-    title = "Many R1 institutions have built multi-person GIS teams"
+    title = "One GIS librarian is the floor at comparable institutions — many have built teams"
   ) +
   theme_minimal(base_size = 13)
 
@@ -302,7 +284,7 @@ p5 <- tier_data %>%
   labs(
     x = "HERD R&D Expenditure Tier (FY2024)",
     y = "Share with dedicated GIS librarian",
-    title = "Top R&D spenders almost universally have dedicated GIS librarians"
+    title = "The higher the research investment, the more certain the GIS support"
   ) +
   theme_minimal(base_size = 13)
 
@@ -635,7 +617,7 @@ Some context on how this happened. In 2022, Dr. Zhiyuan Yao, working with collea
 
 The SSO transition worked. ArcGIS Online went from fewer than 100 active users in 2019 to over 900 in 2021 and 1,145 by April 2022, with growth accelerating after the SSO launch. The site license ($15,000/year) was centralized. The friction was gone. Usage kept climbing.
 
-Then the GIS librarian position was eliminated in 2024.
+Then the GIS librarian position was eliminated in 2024. The platform didn't break because of a technical failure. It broke because the role that administered it was removed. Platform governance, user lifecycle management, and retention policy were never transferred to another unit when the position was cut. They simply stopped happening.
 
 By December 2025, UCLA's ArcGIS Online environment was at 230–240% of its licensed storage capacity and growing at 5–10% per month. No one owned the platform. No retention policies existed. An internal OARC report prepared for the Executive Director of Research Computing put it plainly:
 
@@ -652,6 +634,23 @@ The short-term fix on the table is buying more Esri storage: $2,700/month, $32,4
 A GIS librarian costs $80,000–$115,000/year at UC. For roughly twice the cost of the current broken state, the Library gets the platform actually managed, plus research support, instruction, and the expertise to prevent the next storage crisis. The OARC report noted that the Library "previously provided comprehensive GIS support through a dedicated GIS librarian position that included platform administration, research consultations/partnerships, and classroom instruction" and that without it, day-to-day platform support and technical training are simply "not available."
 
 Every other UC campus centralizes ArcGIS administration in its library or research computing unit. UCLA doesn't, and the consequences are showing.
+
+::: {.callout-warning}
+## What happens if nothing changes
+
+The storage purchase under consideration ($32,400/year) buys capacity, not governance. Without a person to manage the platform, the same growth dynamic resumes immediately after purchase. UCLA would be paying $47,400/year to maintain a degraded, unmanaged system that gets worse every month.
+
+Beyond ArcGIS:
+
+- LARIAC data becomes functionally inaccessible as domain expertise concentrates at other institutions. Researchers can get accounts; they can't get help.
+- Spatial datasets produced by UCLA researchers go undescribed and uncurated. In five years, much of it will be effectively unfindable, even to the people who created it.
+- UCLA continues to fall further behind peers who are building out, not cutting back. Michigan, Minnesota, Washington, and Ohio State all have two-person GIS teams. The gap widens each year.
+- The next storage crisis won't announce itself in advance. Whatever data infrastructure UCLA adds without a librarian to govern it replicates the same conditions.
+
+The cost of the position is roughly twice the annual cost of the storage patch. The patch fixes nothing. The position fixes the problem and restores every service the 2024 cut eliminated.
+:::
+
+
 
 ArcGIS Online is one layer of the problem. UCLA also manages access to LARIAC (the Los Angeles Regional Imagery Acquisition Consortium's high-resolution aerial imagery and LiDAR dataset) through the Data Science Center. The DSC still provisions accounts through EagleView and maintains the data assets in storage. What it can no longer provide is the domain expertise that makes those assets usable. Dr. Yao handled that side: explaining what format a file is in, how LiDAR point clouds get converted to elevation models, what the difference is between the DSM and DEM products, which LARIAC vintage is appropriate for a given research question. Researchers can still get an account. They just can't get help knowing what to do with what they find.
 
