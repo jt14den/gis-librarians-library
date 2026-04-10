@@ -1,9 +1,14 @@
 /* GIS Librarians Report — custom styles */
 
+/* UCLA brand typography */
+body {
+  font-family: Helvetica, Arial, Roboto, sans-serif;
+}
+
 /* Callout / highlight box for key stats */
 .stat-box {
-  background: #f0f4f8;
-  border-left: 4px solid #2c7bb6;
+  background: #DAEBFE;
+  border-left: 4px solid #2774AE;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
   border-radius: 0 4px 4px 0;
@@ -12,13 +17,13 @@
 .stat-box .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c7bb6;
+  color: #2774AE;
   line-height: 1;
 }
 
 .stat-box .stat-label {
   font-size: 0.9rem;
-  color: #555;
+  color: #333333;
   margin-top: 0.25rem;
 }
 
