@@ -1,0 +1,32 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Fix code copy buttons: title is unreliable for screen readers, use aria-label
+  document.querySelectorAll(".code-copy-button").forEach(function (btn) {
+    var title = btn.getAttribute("title");
+    if (title) btn.setAttribute("aria-label", title);
+  });
+
+  // Add role + aria-label to Plotly widgets
+  document.querySelectorAll(".plotly.html-widget").forEach(function (el) {
+    el.setAttribute("role", "img");
+    if (!el.getAttribute("aria-label")) {
+      var section = el.closest("section");
+      var heading = section && section.querySelector("h2, h3");
+      el.setAttribute(
+        "aria-label",
+        heading ? "Chart: " + heading.textContent.trim() : "Interactive chart"
+      );
+    }
+  });
+
+  // Add role + aria-label to Leaflet maps
+  document.querySelectorAll(".leaflet-container").forEach(function (el) {
+    if (!el.getAttribute("role")) el.setAttribute("role", "img");
+    if (!el.getAttribute("aria-label"))
+      el.setAttribute(
+        "aria-label",
+        "Interactive map of GIS librarian distribution across US R1 universities"
+      );
+  });
+});
+</script>

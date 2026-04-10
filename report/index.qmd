@@ -1,7 +1,7 @@
 ---
 title: "GIS Librarians at US R1 Universities"
 subtitle: "How UCLA Became the Only UC Campus Without Dedicated GIS Support"
-author: "UCLA Library Data Science Center"
+author: "Tim Dennis, UCLA Library Data Science Center"
 date: today
 date-format: "MMMM D, YYYY"
 ---
@@ -40,6 +40,14 @@ pct_top25_gis <- sum(top25_inst$has_gis) / nrow(top25_inst)
 # UCLA coordinates (highlighted separately on map)
 ucla_lat <- 34.0722
 ucla_lon <- -118.4427
+
+# Consultation data (produced by data-prep.R from data/reference/gis_consultations.csv)
+consult_annual     <- read_csv("../output/consult_yao_annual.csv", show_col_types = FALSE)
+consult_dept       <- read_csv("../output/consult_dept.csv", show_col_types = FALSE)
+consult_categories <- read_csv("../output/consult_categories.csv", show_col_types = FALSE)
+
+# Last academic year count (Sep 2023 - May 2024)
+n_consult_last_ay <- 74
 ```
 
 ::: {.callout-important}
@@ -57,10 +65,10 @@ The fallout is documented. By December 2025, UCLA's ArcGIS Online platform had g
 
 This isn't a future risk. The gaps are active:
 
-- **ArcGIS Online** is at 230–240% of licensed storage capacity, growing 5–10% per month. No governance exists, no retention policy, no designated owner. An internal OARC report already names the vacant GIS librarian as a root cause.
+- **ArcGIS Online** reached 230–240% of licensed storage capacity. UC-system negotiations with Esri on the license are underway but unresolved. OARC has taken on some platform responsibilities, but without a designated owner the support layer - consultations, instruction, data management, domain expertise - remains absent. Lowering the barrier to entry is not the same as provisioning the support.
 - **LARIAC access**: the Data Science Center still provisions EagleView accounts, but no one can help researchers understand what they're looking at. Domain expertise — which LiDAR vintage to use, how to process point clouds, what each product is good for — left with the position.
-- **Research consultations**: roughly 35 per year across urban planning, ecology, public health, digital humanities, and community organizations. That number is now zero.
-- **GIS instruction**: course-integrated sessions, workshops, and GIS Day programming. None of this has been picked up by another unit.
+- **Research consultations**: 72-82 per year across urban planning, ecology, public health, digital humanities, and community organizations. That number is now zero.
+- **GIS instruction**: a for-credit GIS course co-taught with the Fielding School of Public Health, guest lectures across 4+ departments, library workshops reaching 400+ attendees, and UC-wide workshop organizing (617 attendees in the 2023 cycle alone). None of this has been picked up by another unit.
 - **Data lifecycle support**: metadata, provenance documentation, and preservation planning for spatial datasets produced by UCLA researchers. Without a librarian managing it, the datasets are still being created; they're just no longer being described in ways that make them findable or reusable.
 :::
 
@@ -468,7 +476,7 @@ The 2024 elimination didn't happen in a vacuum. The position had a documented hi
 
 > *"Be certain that you are prepared to scale GIS services once a program has been implemented. You WILL see incredible growth in demand very quickly, particularly with a well-designed instruction program. A single Geospatial Librarian will quickly find they are outpaced by demand. Be prepared to hire a GIS assistant within two to three years."*
 
-UCLA hired Dr. Zhiyuan Yao as Spatial Data Science Librarian following that recommendation. The prediction came true: GIS Day attendance climbed steadily, ArcGIS Online users grew from fewer than 100 in 2019 to over 1,100 by 2022, and Dr. Yao led the push for a systemwide SSO model to keep pace with demand. In the final academic year before the position was cut, she was fielding roughly 2.5 account-request emails per day, on top of research consultations, instruction, workshops, and platform administration.
+UCLA hired Dr. Zhiyuan Yao as Spatial Data Science Librarian following that recommendation. The prediction came true: GIS Day attendance climbed steadily, ArcGIS Online users grew from fewer than 100 in 2019 to over 1,100 by 2022, and Dr. Yao led the push for a systemwide SSO model to keep pace with demand. She also co-founded UC GIS Week, the annual system-wide event that became a fixture of the UC geospatial community. In the final academic year before the position was cut, she was fielding roughly 2.5 account-request emails per day, on top of research consultations, instruction, workshops, and platform administration.
 
 Rather than hire the GIS assistant the 2018 report anticipated, UCLA eliminated the position entirely.
 
@@ -476,10 +484,11 @@ Rather than hire the GIS assistant the 2018 report anticipated, UCLA eliminated 
 |---|---|
 | 2018 | Stanford assessor recommends hiring a dedicated GIS librarian; warns demand will outpace one person |
 | 2018–19 | UCLA hires Dr. Zhiyuan Yao as Spatial Data Science Librarian |
-| 2020–22 | ArcGIS Online users grow from <100 to 1,100+; UCLA leads UC GIS Week participation |
+| 2020 | Dr. Yao co-founds UC GIS Week, the annual system-wide geospatial event across all UC campuses |
+| 2020–22 | ArcGIS Online users grow from <100 to 1,100+; Dr. Yao serves as Marketing Lead for UC GIS Week |
 | 2022 | Dr. Yao drives SSO transition; UCLA was the last UC campus on the old model |
-| 2023–24 | 35+ documented consultations in one academic year across a wide range of campus departments |
-| 2024 | Position eliminated |
+| 2023–24 | 74 documented consultations in the final academic year across 20+ campus departments |
+| August 2024 | Position eliminated |
 | 2025 | ArcGIS Online at 230–240% of licensed storage capacity; OARC report names vacant GIS librarian as root cause |
 
 ### The University of California system
@@ -602,22 +611,133 @@ Michigan, Minnesota, UNC, Washington, and Ohio State all have this same mix of p
 
 ### Evidence of demand: what the position actually did
 
-Calendly records from the position's last academic year (September 2023 through May 2024) show roughly **35 booked consultations**. That count excludes walk-ins, email questions, classroom sessions, and the ArcGIS platform work running in the background. Thirty-five is the documented minimum.
+DSC consultation records show the position averaged **72-82 booked consultations per year**. In the last academic year before the cut (September 2023 through May 2024) there were **`r n_consult_last_ay` documented consultations**. That count excludes walk-ins, email questions, classroom sessions, and the ArcGIS platform work running in the background.
 
-**Consultation breakdown (Sep 2023–May 2024):**
+```{r consult-by-year}
+#| echo: false
 
-| Category | Approx. Count | Representative requests |
-|---|---|---|
-| GIS & geospatial analysis | 18 | Wildfire/CalFIRE census block analysis; community org parking data mapping; gentrification and debt spatial patterns; ZIP-to-county joins; bivariate choropleth maps; StoryMaps; Field Maps |
-| Statistical consultation | 6 | Regression modeling; missing data imputation; XRF results certification; Digital Humanities capstone analysis |
-| Data wrangling & cleaning | 5 | Census data extraction; historical data digitization; spatial panel regression |
-| Coding & programming | 6 | Python, R, machine learning model selection; sentiment analysis; spider plots for oncology research |
+p_annual <- consult_annual %>%
+  mutate(
+    label     = if_else(year == 2024, paste0(consultations, "*"), as.character(consultations)),
+    bar_color = if_else(year == 2024, "#aab8c2", "#2c7bb6")
+  ) %>%
+  plot_ly(
+    x = ~year, y = ~consultations,
+    type = "bar",
+    text = ~label, textposition = "outside",
+    marker = list(color = ~bar_color),
+    hovertemplate = "%{x}: %{y} consultations<extra></extra>"
+  ) %>%
+  layout(
+    title = list(text = "GIS librarian consultations declined to zero after position cut", font = list(size = 14)),
+    xaxis = list(title = "", tickvals = c(2021, 2022, 2023, 2024),
+                 ticktext = c("2021", "2022", "2023", "2024 (partial)")),
+    yaxis = list(title = "Consultations", range = c(0, 100)),
+    showlegend = FALSE,
+    annotations = list(list(
+      x = 2024, y = 55,
+      text = "*data through Jun 2024; position vacated Aug 2024",
+      showarrow = FALSE, font = list(size = 11, color = "#666")
+    ))
+  )
 
-Urban planning, oncology, digital humanities, ecology, public health, earth sciences, social sciences, community organizations. This wasn't a GIS specialist serving a handful of geography grad students. It was research support spread across a significant portion of the campus.
+p_annual
+```
 
-The Calendly data captures consultations but not the infrastructure work running alongside them. The position also managed UCLA's access to LARIAC (the Los Angeles Regional Imagery Acquisition Consortium's high-resolution aerial imagery and LiDAR dataset) through the Data Science Center. The DSC still provisions accounts through EagleView and maintains the data assets in storage. What it can no longer provide is the domain expertise that makes those assets usable. Dr. Yao handled that side: explaining what format a file is in, how LiDAR point clouds get converted to elevation models, what the difference is between the DSM and DEM products, which LARIAC vintage is appropriate for a given research question. Researchers can still get an account. They just can't get help knowing what to do with what they find.
+```{r consult-by-dept}
+#| echo: false
+
+top_dept <- consult_dept %>% slice_head(n = 15)
+
+p_dept <- plot_ly(
+  top_dept,
+  x = ~n, y = ~reorder(department, n),
+  type = "bar", orientation = "h",
+  marker = list(color = "#2c7bb6"),
+  hovertemplate = "%{y}: %{x} consultations<extra></extra>"
+) %>%
+  layout(
+    title = list(text = "GIS support reached across UCLA - not just Geography", font = list(size = 14)),
+    xaxis = list(title = "Consultations"),
+    yaxis = list(title = ""),
+    margin = list(l = 220)
+  )
+
+p_dept
+```
+
+```{r consult-by-category}
+#| echo: false
+
+p_cat <- plot_ly(
+  consult_categories,
+  x = ~n, y = ~reorder(category, n),
+  type = "bar", orientation = "h",
+  marker = list(color = "#2c7bb6"),
+  hovertemplate = "%{y}: %{x}<extra></extra>"
+) %>%
+  layout(
+    title = list(text = "GIS was the core - but not the whole job", font = list(size = 14)),
+    xaxis = list(title = "Times tagged"),
+    yaxis = list(title = ""),
+    margin = list(l = 200)
+  )
+
+p_cat
+```
+
+The category breakdown confirms the position was doing more than map-making. Geospatial analysis was the core, but nearly as many consultations involved data analysis, coding support, and data wrangling - skills that only matter once a researcher has a spatial dataset and needs to do something with it.
+
+That mix reflects a design choice. The position was titled **Spatial Data Scientist** specifically because it was embedded in the Data Science Center, not housed separately in a maps collection. The DSC already supported researchers with R, Python, data cleaning, and statistical methods. When a patron's data work reached the point where it needed a spatial dimension - adding coordinates, joining to a shapefile, building a choropleth - the GIS specialist was in the same room. The handoff went the other direction too: someone who came in with a GIS question often needed the underlying data pipeline fixed first, and DSC staff could take that part. The two functions covered each other's gaps in ways that don't happen when GIS lives in a separate unit. That complementarity is what the job title was meant to signal, and what gets lost when the position disappears.
+
+A few examples show what that actually looked like in practice.
+
+A Geography researcher studying how wolf reintroduction in Yellowstone changed river channel morphology needed help figuring out which spatial techniques to use for tracking planform changes over time. That's a methodology question that sits at the intersection of ecology, geomorphology, and spatial analysis - not something IT resolves or a subject librarian handles as an aside.
+
+A physician researcher came in with lung transplant patient data geocoded to the zip code level, trying to build ambient air pollution exposure models. The problem was that ZCTAs are polygons and the exposure data was point-based - a spatial mismatch that needed someone who understood both the research question and how to resolve it analytically. One consultation hour, specialized support that no other campus unit was set up to provide.
+
+A Public Affairs researcher analyzing LAPD helicopter surveillance over LA neighborhoods needed both the mapping and the statistics - plotting flight trajectories, then testing whether altitude and time in orbit correlated with neighborhood characteristics. The data was public record. Knowing what to do with it required GIS expertise.
+
+The rest followed the same pattern: environmental scientists working with LARIAC LiDAR to map impervious surfaces in Santa Monica, urban planners joining census tract data to parcel shapefiles to track gentrification, digital humanities faculty embedding StoryMaps into linguistics courses, epidemiologists building spatial lag models for disease incidence at the zip code level.
+
+This wasn't a GIS specialist serving a handful of geography grad students. It was research infrastructure spanning medicine, public health, ecology, social science, and the humanities - at an institution that generates $1.5 billion in annual research expenditure.
+
+The consultation data captures one-on-one support but not the infrastructure work running alongside it. The position also managed UCLA's access to LARIAC (the Los Angeles Regional Imagery Acquisition Consortium's high-resolution aerial imagery and LiDAR dataset) through the Data Science Center. The DSC still provisions accounts through EagleView and maintains the data assets in storage. What it can no longer provide is the domain expertise that makes those assets usable. A GIS librarian handles that side: explaining what format a file is in, how LiDAR point clouds get converted to elevation models, what the difference is between the DSM and DEM products, which LARIAC vintage is appropriate for a given research question. Researchers can still get an account. They just can't get help knowing what to do with what they find.
+
+The DSC also provided computing infrastructure that sits in a gap most campus units don't address. A dedicated GIS workstation and a deep learning machine, both accessible remotely, gave researchers a place to run jobs that a laptop can't handle but don't justify a slot in an HPC queue. Classifying aerial imagery, processing large LiDAR datasets, running spatial deep learning models: this is mid-tier work that shows up constantly in geospatial research. OARC handles the computationally intensive end. Researchers handle the light end on their own machines. The DSC covered the middle, with equipment maintained specifically for this kind of work and staff who knew how to use it. That infrastructure doesn't exist elsewhere in the library system.
 
 There's a broader argument here that gets lost when the focus stays on platform governance: why the library specifically, rather than OARC or IT? IT keeps servers running. OARC supports computational workflows. What libraries do that neither of those units does is describe data so it can be found, understood, and used years after the project that created it has ended. The DSC's [LARIAC documentation](https://storymaps.arcgis.com/stories/d200175d87ca4294bfc9cb32407d311d) makes the point concretely: it's a StoryMap covering three generations of aerial imagery, their formats, access methods, and lineage from 30+ LA County departments. That documentation is what a researcher relies on when they come back to LARIAC files five years later, or when a grad student needs to figure out how LARIAC 4 point clouds differ from LARIAC 6 oblique imagery. Without it, the data effectively disappears. Metadata, provenance, lifecycle documentation: this is what librarians are trained to do, and what no other campus unit is set up to provide.
+
+### GIS instruction: courses, workshops, and campus reach
+
+The consultation record documents one-on-one support. The instruction record shows what grows around it when the role has time to develop.
+
+The most striking example: in Winter 2021, the GIS librarian co-taught **EH207: Introduction to Geographic Information System** with Prof. Michael Jerret in the Fielding School of Public Health - 8 lab sessions, 19 students, curriculum developed for the course. Most library GIS positions operate at the edges of instruction, guest lecturing into courses run by departments. At UCLA, the position had grown to the point of being embedded in a for-credit graduate course, developing its technical lab content from scratch.
+
+Course-integrated guest instruction ran across multiple departments:
+
+| Course | Department | Students |
+|---|---|---:|
+| DH 199: Mapping Racism, Urban Design, & Thermal Inequality | Institute for Society and Genetics / History | 16 |
+| EPS 111: Stratigraphic and Field Geology | Earth, Planetary, and Space Sciences | 30 |
+| SPAN/LING 191A: The Sounds of Spanish, English, and Spanglish in LA | Spanish and Portuguese | 10 |
+| Race-Making and Geography | Chicana/o and Central American Studies | 14 |
+
+Library workshops ran continuously alongside the course work. Between 2020 and 2023, Dr. Yao taught or helped at workshops reaching well over 400 attendees in UCLA-sponsored sessions alone - QGIS fundamentals and raster analysis (110+ attendees), Data Carpentry geospatial R (32), geospatial analysis with R (multiple sessions), StoryMaps (33), and R and Python workshops. She held a Carpentries instructor certification and served as a certified instructor and helper across more than a dozen workshops.
+
+The system-level contribution went beyond workshops. Dr. Yao was one of the founders of **UC GIS Week**, the annual event that grew into the primary gathering for geospatial practice across the UC system, drawing participation from all campuses. She served as Marketing Lead for the inaugural cycles in 2020 and 2021, and remained on the UC GIS Leadership group through the end of her tenure. Beginning in 2022, she also took on a UC-system-level role as an organizer for UC-wide workshops. In the 2023 cycle alone:
+
+| Workshop | Attendees |
+|---|---:|
+| The Unix Shell | 164 |
+| Plotting and Programming in Python | 139 |
+| R for Reproducible Scientific Analysis + Git | 136 |
+| Tidy Data for Librarians | 95 |
+| SQL | 83 |
+
+That's 617 people across the UC system in a single workshop cycle, organized out of UCLA's library.
+
+None of this has a home now. The Carpentries program still runs at UCLA, but the GIS-specific instruction - the QGIS workshops, the geospatial R sessions, the course-integrated teaching in Public Health and the humanities - left with the position. No other unit has picked it up.
 
 ### The ArcGIS Online crisis
 
@@ -643,11 +763,13 @@ A GIS librarian costs $80,000–$115,000/year at UC. For roughly twice the cost 
 
 Every other UC campus centralizes ArcGIS administration in its library or research computing unit. UCLA doesn't, and the consequences are showing.
 
+There is coordinated action across the UC system to renegotiate the Esri license terms - a recognition that the current storage and cost structure isn't working. Nothing has been decided. OARC has stepped up to take on some platform responsibilities in the interim, which matters. But platform access and platform support are different things. Negotiating better license terms lowers the barrier to entry. It does not restore the support layer: the consultations, the instruction, the data management, the domain expertise that makes the tools useful once someone has access to them. A researcher who can log into ArcGIS Online but doesn't know how to process a LiDAR point cloud is no better off than before. That gap is what a GIS librarian fills, and it remains unfilled.
+
 ::: {.callout-warning}
 ## What happens if nothing changes
 
 
-The storage purchase under consideration ($32,400/year) buys capacity, not governance. Without a person to manage the platform, the same growth dynamic resumes immediately after purchase. UCLA would be paying $47,400/year to maintain a degraded, unmanaged system that gets worse every month.
+A renegotiated Esri license would address access. OARC stepping in addresses some platform operations. Neither restores the support layer. Without someone whose job is GIS expertise - not platform administration as a side task, but research consultation, instruction, data management, and domain knowledge as a primary responsibility - the same gap persists. Better license terms mean more researchers can log in. It does not mean they get help once they do.
 
 Beyond ArcGIS:
 

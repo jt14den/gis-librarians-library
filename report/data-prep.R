@@ -164,7 +164,68 @@ herd <- read_csv("data/reference/carnegie_herd_join.csv", show_col_types = FALSE
 geocoded <- geocoded %>%
   left_join(herd, by = "Institution")
 
-# ── 9. Write output ───────────────────────────────────────────────────────────
+# ── 9. Write institutions output ──────────────────────────────────────────────
 
 write_csv(geocoded, "output/institutions_analysis.csv")
 message("Wrote output/institutions_analysis.csv")
+
+# ── 10. Consultation summaries ────────────────────────────────────────────────
+# Source: data/reference/gis_consultations.csv
+# Extracted from dsc-stats project; re-extract with data/reference/extract_consultations.R
+
+consult_raw <- read_csv("data/reference/gis_consultations.csv", show_col_types = FALSE) |>
+  mutate(date = as.Date(date), year = lubridate::year(date))
+
+# Yao-only rows: yearly totals
+consult_yao_annual <- consult_raw |>
+  filter(grepl("Yao|zhiyuan", user_name, ignore.case = TRUE)) |>
+  count(year, name = "consultations")
+
+write_csv(consult_yao_annual, "output/consult_yao_annual.csv")
+message("Wrote output/consult_yao_annual.csv")
+
+# Department breakdown — Yao rows with known department, excluding internal Library rows
+consult_dept <- consult_raw |>
+  filter(
+    grepl("Yao|zhiyuan", user_name, ignore.case = TRUE),
+    !is.na(department),
+    department != "Library"
+  ) |>
+  count(department, name = "n", sort = TRUE)
+
+write_csv(consult_dept, "output/consult_dept.csv")
+message("Wrote output/consult_dept.csv")
+
+# Category breakdown — parse tags from appointment_reason, normalize, exclude internal
+exclude_internal <- paste0(
+  "Interview|DataSquad|Meeting with Tim|IMLS|CARE Principles|Technical Writer|",
+  "Tim and Zhiyuan|tim-keona|Suzy|Tech Writer$|Lesson Infrastructure|",
+  "Project Manager|TAGS$|http|uclalibrary.atlassian|\u200c"
+)
+
+consult_categories <- consult_raw |>
+  filter(grepl("Yao|zhiyuan", user_name, ignore.case = TRUE)) |>
+  mutate(tags_raw = stringr::str_extract(appointment_reason, "^[^|]+")) |>
+  filter(!is.na(tags_raw)) |>
+  mutate(row_id = row_number(), tag_list = strsplit(tags_raw, "\n")) |>
+  tidyr::unnest(cols = tag_list) |>
+  mutate(tag_list = trimws(tag_list)) |>
+  filter(
+    nzchar(tag_list),
+    !grepl(exclude_internal, tag_list, ignore.case = TRUE)
+  ) |>
+  mutate(category = dplyr::case_when(
+    grepl("GIS|geospatial", tag_list, ignore.case = TRUE)          ~ "Geospatial / GIS",
+    grepl("Data Analysis",  tag_list, ignore.case = TRUE)          ~ "Data analysis",
+    grepl("Code|Coding|Programming|Python", tag_list, ignore.case = TRUE) ~ "Coding & programming",
+    grepl("Wrangling|Cleaning", tag_list, ignore.case = TRUE)      ~ "Data wrangling & cleaning",
+    grepl("Management Planning", tag_list, ignore.case = TRUE)     ~ "Data management",
+    grepl("Looking for|Collecting", tag_list, ignore.case = TRUE)  ~ "Finding data",
+    grepl("Sharing|Publishing", tag_list, ignore.case = TRUE)      ~ "Data sharing & publishing",
+    TRUE ~ NA_character_
+  )) |>
+  filter(!is.na(category)) |>
+  count(category, name = "n", sort = TRUE)
+
+write_csv(consult_categories, "output/consult_categories.csv")
+message("Wrote output/consult_categories.csv")

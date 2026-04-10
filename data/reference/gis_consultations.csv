@@ -1,0 +1,599 @@
+"date","user_name","department","ucla_affiliation","appointment_reason","group"
+2021-01-14,"Zhiyuan Yao","Epidemiology","Graduate Student","Geospatial data/GIS|Reverse geocoding| Make an appointment with Zhiyuan","DSC"
+2021-01-15,"Gillian Bailey",NA,"Undergraduate","Geospatial data/GIS|Need help transferring a csv with only FIP (county ) as identification into a map| Geospatial Analysis and GIS Support","DSC"
+2021-01-15,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Changing Extent of file in QGIS| Make an appointment with Zhiyuan","DSC"
+2021-01-25,"Zhiyuan Yao",NA,"Undergraduate","Data Wrangling and Cleaning
+Data Analysis
+Data Management Planning|https://docs.google.com/spreadsheets/d/1T26cmJ0R80nTCkzfKRuXt8l4udZ6rr8EtQsPrGqttDk/edit| Statistical Consulting","DSC"
+2021-01-27,"Zhiyuan Yao","Urban Planning","Graduate Student","Looking for data
+Data Wrangling and Cleaning
+Geospatial data/GIS
+Data Management and Planning|I need to incorporate remote sensing and gis data that allows me to measure the following attributes of the city of los angeles: vegetation diversity, impervious cover, tree canopy, % road coverage, building height, floor area ratio. Ill need to identify existing greenspaces and elimiante any from my sample that are within 250 meters of one a other. Next I will need to overlay ebird observation data by location and drop any greenspaces that do not have complete data. Lastly I would like to select final sites through stratified random sampling. The goal is to measure attributes within a 200m buffer around each greenspace. As a first step, I would like to identify best sources for data and methodologies for assessing each attribute. I have most of the data sources, but would like to talk through the best approach for layering all this data and measuring it.| Geospatial Analysis and GIS Support","DSC"
+2021-02-04,"Zhiyuan Yao","Information Studies","Graduate Student","Geospatial data/GIS
+Available classes|Hi Zhiyuan! 
+
+I was speaking to my library mentor, Wynn Tranfield, about being interested in taking a GIS class during my time at UCLA (my background being in environmental science, and I took 1 GIS class that wasn't too structured in my undergrad program) and she thought you would likely be more knowledgeable about the different offerings and their applications. I was also at the Git/GitHub library carpentries workshop last week, and saw you briefly there! 
+
+Thank you for your time,
+Noelle| Make an appointment with Zhiyuan","DSC"
+2021-02-03,"Zhiyuan Yao","Public Health","Graduate Student","Other|We will go over some basics in ArcGis Pro as per our email exchange, Thank you!| Make an appointment with Zhiyuan","DSC"
+2021-02-04,"Zhiyuan Yao","Geography","Undergraduate","Looking for data
+Geospatial data/GIS|I am working on an independent research project on changes in planform river morphology in Yellowstone in relation to the reintroduction of wolves.  I am hoping to get guidance on what techniques and methods are most appropriate for this kind of analysis. I am also looking for data regaring the movement of Elk within the park, specifically their winter grazing ranges as changes in these patters are a vital piece of defining the study area.  I am hoping to get guidance on where I might find this.  Thanks!| Make an appointment with Zhiyuan","DSC"
+2021-02-10,"Zhiyuan Yao","Digital Humanities","Undergraduate","Data Analysis
+Geospatial data/GIS|- Geo spatial analysis, understanding census data| Make an appointment with Zhiyuan","DSC"
+2021-02-17,"Julia Wood","Digital Humanities","Undergraduate","Coding/Programming
+Geospatial data/GIS|| 60 Minute Meeting (One-on-One)","Other"
+2021-02-17,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Data Analysis
+Coding/Programming
+Data Management Planning
+Data Sharing and Publishing|Hi,
+I have a series of HTML files which contain the file names of images I'd like to extract and put into a spreadsheet. I was wondering if there's a convenient way to do that? Thank you!| Data & Coding Consultation","DSC"
+2021-02-18,"Zhiyuan Yao","Urban Planning","Graduate Student","Geospatial data/GIS|Hello, I have tried importing lat/long points into ArcMap, but the locations are off. I worked through each of the suggested fixes presented by ArcMap and continue to experience issues. One thing I noticed is that the extent of my xy import layer seems to be in meters instead of degrees, so instead of saying 34.267062 degrees and  -118.385067 degrees it says 34.267062m and -118.385067m. I have tried changing the dataframe as well as the layer coordinate system to align them, but am still facing issues.| Geospatial Analysis and GIS Support","DSC"
+2021-02-19,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Code/Programming|| Make an appointment with Zhiyuan","DSC"
+2021-02-19,"Zhiyuan Yao",NA,"Graduate Student","Coding/Programming
+Geospatial data/GIS|Google Earth Engine| Geospatial Analysis and GIS Support","DSC"
+2021-02-22,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Data Analysis
+Code/Programming
+Data Management Planning|| Make an appointment with Zhiyuan","DSC"
+2021-02-24,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Data Analysis
+Code/Programming
+Data Management Planning
+Data Sharing and Publishing|| Make an appointment with Zhiyuan","DSC"
+2021-02-25,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-02-25,"Zhiyuan Yao","Public Affairs","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-02-25,"Julia Wood","Digital Humanities","Undergraduate","Geospatial data/GIS|| 60 Minute Meeting (One-on-One)","Other"
+2021-03-02,"Julia Wood","Digital Humanities","Undergraduate","Coding/Programming
+Geospatial data/GIS|| 60 Minute Meeting (One-on-One)","Other"
+2021-03-05,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Hi Yaolaoshi,
+I wonder what tool can allow me to input a spreadsheet with place names and GPS info (like the attachment) and generate the effect like in ArcGIS Storymap so that the audience can navigate among the places. Could you please help me? Thank you very much!
+
+Best,
+Lin| Make an appointment with Zhiyuan","DSC"
+2021-03-08,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Geospatial data/GIS|Hi I’m someone super unfamiliar with spatial analyses but who has been tasked with comparing the air pollution at a census tract level for two cities in LA. I honestly don’t even have a shapefile/map of LA and have barely done anything with Qgis or R but I’d love to know how to use the software to statistically spatially analyze these two regions for my project. For reference, my research builds off of the IOES study Assesing Community Health in Inglewood and Santa Monica.| Make an appointment with Zhiyuan","DSC"
+2021-03-09,"Zhiyuan Yao","Digital Humanities","Undergraduate","TAGS|I need help setting up my own API, also my TAGS sheets is not showing all of the information that I am requesting. Need help with understanding how to get TAGS to scrape the twitter data I want| Data & Coding Consultation","DSC"
+2021-03-15,"Zhiyuan Yao","Institute of the Environment and Sustainability","Undergraduate","Data Wrangling and Cleaning
+Geospatial data/GIS|Hello! Thank you so much for your help so far.
+My primary question is about UCLA LARIAC data analysis through the CONNECTExplorer portal. My research team and I need to analyze permeable/nonpermeable surfaces in the City of Santa Monica through different land cover types, but I am unsure how to do this/where to find this in the application. 
+My secondary question is regarding California Forest Observatory. My team needs to download data from previous years, but the only way to do this is through the CA Forest Observatory API. I'm wondering if you can help us figure out how to download data using the API?
+
+Blog post about it: https://salo.ai/blog/2021/02/cfo-cloud
+API: https://github.com/forestobservatory/cfo-api
+
+Thank you so much! Looking forward to speaking with you tomorrow.| Make an appointment with Zhiyuan","DSC"
+2021-03-16,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|I am planning on correlating ambient air pollution exposure to outcomes in lung transplant patients. Patients are geolocated at the zip code level. I would like to discuss how best to geocode and build exposure models given ZCTAs are polygons and the exposure data I have is coded to the nearest lat/long coordinate. Thanks.| Geospatial Analysis and GIS Support","DSC"
+2021-03-19,"Zhiyuan Yao",NA,"Graduate Student","Code/Programming
+Geospatial data/GIS|Rasterizing multipolygon SF file for a numeric column in R| Make an appointment with Zhiyuan","DSC"
+2021-03-22,"Zhiyuan Yao",NA,"Graduate Student","Code/Programming
+Geospatial data/GIS|Having a hard time clipping shapefile in both R and QGIS| Make an appointment with Zhiyuan","DSC"
+2021-03-24,"Zhiyuan Yao",NA,"Graduate Student","Code/Programming
+Geospatial data/GIS|Having a hard time clipping and rasterizing problematic shapefiles| Make an appointment with Zhiyuan","DSC"
+2021-04-05,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Wrangling and Cleaning
+Geospatial data/GIS|I'm struggling to display data a certain way. Working with ArcGIS Story and i'm seeing a lot of limitations. Julia recommended I speak to you and I wanted to see what your thoughts are.| Make an appointment with Zhiyuan","DSC"
+2021-04-06,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|working through arcgis story and data| Make an appointment with Zhiyuan","DSC"
+2021-04-07,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Geospatial data/GIS|continuing work| Make an appointment with Zhiyuan","DSC"
+2021-04-12,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|continuing meeting| Make an appointment with Zhiyuan","DSC"
+2021-04-12,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|continuing meeting| Make an appointment with Zhiyuan","DSC"
+2021-04-07,"Zhiyuan Yao",NA,NA,"Meeting with Tim & Zhiyuan","DSC"
+2021-04-15,"Zhiyuan Yao","Geography","Undergraduate","Data Management Planning|Thank you for the tutorial you sent me. It is helpful but I would love to chat in person.| Make an appointment with Zhiyuan","DSC"
+2021-04-13,"Zhiyuan Yao","Geography","Undergraduate","Data Management Planning|| Make an appointment with Zhiyuan","DSC"
+2021-04-13,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|continue work on same project| Make an appointment with Zhiyuan","DSC"
+2021-04-13,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|continuing with same project| Make an appointment with Zhiyuan","DSC"
+2021-04-14,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|continuing with same project| Make an appointment with Zhiyuan","DSC"
+2021-04-14,"Zhiyuan Yao","Information Studies","Graduate Student","Code/Programming
+Geospatial data/GIS|This is my group. We found a better source than the epa data. https://data.ca.gov/dataset/calenviroscreen-3-0-results Could you walk us through how you would add this data to leaflet?| Make an appointment with Zhiyuan","DSC"
+2021-04-12,"Zhiyuan Yao","Information Studies","Graduate Student","Data Analysis
+Code/Programming
+Python help/support|| Make an appointment with Zhiyuan","DSC"
+2021-04-15,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|same project| Make an appointment with Zhiyuan","DSC"
+2021-04-15,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Geospatial data/GIS|Hi Ms. Yao! We meet just before spring actually but just to refresh I am doing a project where I am tracking air pollution data and food desert data in Inglewood and Santa Monica and trying to visually map it through GIS, as well as compare the results of the air pollution level in Inglewood and Santa Monica statistically. I had contacted you earlier about displaying it visually through GIS but this time I wanted to talk about how one does statistical analysis through R or Qgis.| Make an appointment with Zhiyuan","DSC"
+2021-04-19,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Wrangling and Cleaning
+Geospatial data/GIS|I would like to transform a dataframe into a spatial dataset (it has coordinates). Then I would like to import a polygon shape file and clip the point data to the polygons in R. Essentially I am trying to cut down my occurrence data to occurrences that fall within my shape layer in R.| Data & Coding Consultation","DSC"
+2021-04-16,"Gillian Bailey","Public Affairs","Undergraduate","Data Analysis
+Geospatial data/GIS|Hello! So I've talked to a librarian about this before so I apologize for using up too much time, but essentially I am conducting student research that requires me to map air pollution and grocery store percentage data (I've found it in the form of CSV files). However, I am totally lost on how to use QGIS to do this so I was hoping to get some help understanding how to do this with QGIS. (I have never really used QGIS before and videos online don't seem to answer my research).| Geospatial Analysis and GIS Support","DSC"
+2021-04-20,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Wrangling and Cleaning
+Data Analysis
+Code/Programming|next steps in analysis of ebird data| Make an appointment with Zhiyuan","DSC"
+2021-04-22,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Wrangling and Cleaning
+Data Analysis|KnowBR r package| Make an appointment with Zhiyuan","DSC"
+2021-04-26,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Analysis|KnowBR r package results, next steps| Make an appointment with Zhiyuan","DSC"
+2021-04-27,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Analysis|KnowBR results| Make an appointment with Zhiyuan","DSC"
+2021-04-27,"Leigh Phan","Geography","Undergraduate","Geospatial data/GIS|Having issues when redefining projection. Changing projection in ArcCatalog to match current map document but data no longer visible. When trying to change when importing the projection I need cannot be found in the search bar.| Geospatial Analysis and GIS Support","DSC"
+2021-05-04,"Zhiyuan Yao","Chemistry and Biochemistry","Undergraduate","Data Analysis
+Coding/Programming|I would like to get a check on my data manipulation and data analysis.| Data & Coding Consultation","DSC"
+2021-05-05,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Geospatial data/GIS|Hi Zhiyuan it's Anvita again! I am still working on my project where I am trying to spatially visualize air pollution data and food desert data in the cities of Inglewood and Santa Monica in GIS. I just had a meeting with the librarian Gillian Bailey and she said for a question I had regarding how to visually illustrate the presence of food deserts in these cities it is best to ask you for help since the FIPS code is missing a zero before it otherwise it would be able to track the data for each census tract in the data. She also asked for me to review what I've made with her (air pollution concentration maps of Inglewood and Santa Monica) with you in another meeting. Thus I hope this meeting won't be too redundant but I do still need clarification. Additionally, I was wondering if it's possible if our meeting could be recorded so I can refer back to it later on? Thank you Zhiyuan and thanks again for connecting me with Linda:).| Make an appointment with Zhiyuan","DSC"
+2021-05-05,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Interpolation| Make an appointment with Zhiyuan","DSC"
+2021-05-10,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Interpolation| Make an appointment with Zhiyuan","DSC"
+2021-05-06,"Zhiyuan Yao","Public Affairs","Undergraduate","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-05-12,"Zhiyuan Yao","Chemistry and Biochemistry","Undergraduate","Data Analysis|Try to get help for using Python code to work on probability problems.| Make an appointment with Zhiyuan","DSC"
+2021-05-18,"Zhiyuan Yao","Chemistry and Biochemistry","Undergraduate","Data Analysis|I would like to get help for obtaining data from graph, data analysis, and error propagation.| Make an appointment with Zhiyuan","DSC"
+2021-06-01,"Zhiyuan Yao","Chemistry and Biochemistry","Undergraduate","Data Analysis|| Make an appointment with Zhiyuan","DSC"
+2021-06-02,"Zhiyuan Yao","Institute of the Environment and Sustainability","Graduate Student","Geospatial data/GIS|Multipoint to Muilti-line| Make an appointment with Zhiyuan","DSC"
+2021-07-23,"Zhiyuan Yao",NA,NA,"Meeting with Tim & Zhiyuan","DSC"
+2021-08-03,"Zhiyuan Yao",NA,"Staff","Looking for data
+Geospatial data/GIS|We are looking to see how GIS could potentially be used for a project we are working on to identify threats, hazards, and vulnerabilities around UCLA.| Make an appointment with Zhiyuan","DSC"
+2021-08-05,"Zhiyuan Yao","Social Welfare","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-08-10,"Jamie Jamison",NA,NA,"ARCGIS one to many join not working| Meeting with Jamie","DSC"
+2021-08-13,"Zhiyuan Yao",NA,"Staff","ARCGIS|Help with dashboard| Make an appointment with Zhiyuan","DSC"
+2021-08-31,"Zhiyuan Yao","Information Studies","Faculty","Looking for data
+Data Analysis|| Make an appointment with Zhiyuan","DSC"
+2021-09-10,"Zhiyuan Yao",NA,NA,"tim-keona-zhiyuan","DSC"
+2021-09-17,"Zhiyuan Yao",NA,NA,"tim-keona-zhiyuan","DSC"
+2021-09-02,"Zhiyuan Yao","Information Studies","Faculty","Looking for data
+Data Analysis|| Make an appointment with Zhiyuan","DSC"
+2021-09-08,"Zhiyuan Yao",NA,"Staff","Other|Carpentries agenda - will only take half hour| Make an appointment with Zhiyuan","DSC"
+2021-09-09,"Zhiyuan Yao","Economics","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-09-14,"Zhiyuan Yao","Economics","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-09-27,"Zhiyuan Yao","Economics","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-10-04,"Zhiyuan Yao","Economics","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2021-10-07,"Zhiyuan Yao","Epidemiology","Graduate Student","Geospatial data/GIS|Hi Dr. Yao, I have a couple of questions regarding the spatial analyst tool 'Extract Multi Values to Points', especially for the effect of different coordinate systems for the points and the input raster files. Thank you so much and look forward to meeting with you!| Make an appointment with Zhiyuan","DSC"
+2021-10-12,"Leigh Phan",NA,"Graduate Student","Data Analysis
+Coding/Programming
+Geospatial data/GIS|I have PM2.5 air pollution data in .hd5 format. The data is in raster form. I need to be able to access that data, overlay zip codes, create zip code estimates, and then use those estimates in an exposure model for analysis of a patient registry. I am a MAC user, but QGIS crashes whenever trying to use the data. I am open to other programs like ArcGIS (would require me to get access to a PC) or R.| Geospatial Analysis and GIS Support","DSC"
+2021-10-26,"Zhiyuan Yao",NA,"Graduate Student","Data Analysis
+Geospatial data/GIS|Working through previously discussed issues with PM2.5 air pollution data and .h5 data structure.| Make an appointment with Zhiyuan","DSC"
+2021-10-22,"Zhiyuan Yao","Urban Planning","Graduate Student","Looking for data
+Data Wrangling and Cleaning
+Data Analysis|interested in mapping demographic data by ethnicity in specific neighborhoods related to businesses owners and employment force, and wages| Make an appointment with Zhiyuan","DSC"
+2021-11-08,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2021-11-03,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2021-11-04,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2021-11-04,"Zhiyuan Yao",NA,NA,"mobile: 925 819 3019| Interview-Project Manager Data Squad","DSC"
+2021-11-10,"Zhiyuan Yao",NA,NA,"Looking forward to it... Please send an agenda, if one is needed!
+
+- Ben| Meeting with Tim & Zhiyuan","DSC"
+2021-11-08,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Followup of our last meeting about PM2.5 data. I have acquired the data in netCDF format which may be easier to process. Now trying to find out how to do the zip code (and census tract) overlay to generate the zip code-level estimates.| Make an appointment with Zhiyuan","DSC"
+2021-12-06,"Zhiyuan Yao",NA,"Faculty","Geospatial data/GIS|Workshop on creating a digital story map using ArcGIS for SPAN160/LING191A The Sounds of Spanish, English, and Spanglish in Los Angeles| Make an appointment with Zhiyuan","DSC"
+2021-11-12,"Zhiyuan Yao","Digital Humanities","Faculty","Looking for data|I'm working with student who want to download census data, but I'm having a hard time navigating their site and finding granular-level shape files.| Make an appointment with Zhiyuan","DSC"
+2021-11-15,"Zhiyuan Yao","Public Health","Graduate Student","Data Analysis
+Geospatial data/GIS|I need help setting up a workflow to process an extremely large dataset in ArcGIS.
+
+I am trying to use the tabulate intersection feature to calculate the land-use makeup of each census tract the SCAG MPO area.  It would also be interesting to do data clustering to look at nearby census tracts  and see if demographic trends were associated with land-uses outside of the census tracts.| Geospatial Analysis and GIS Support","DSC"
+2021-12-10,"Zhiyuan Yao",NA,NA,"check-in with Institute of Transportation Studies| GIS","DSC"
+2021-12-15,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Hi Dr. Yao, I would like to ask how to build density maps in ArcGIS (in order to show the distribution of my population's residential addresses by their race). Thank you and look forward to meeting with you!| Make an appointment with Zhiyuan","DSC"
+2022-01-10,"Zhiyuan Yao","Institute of the Environment and Sustainability","Staff","Data Analysis
+Geospatial data/GIS
+Other
+ArcGIS GeoAnalytics Server access|Hi,
+I am a new postdoc at IoES and I will be analyzing a large spatial database that is stored on AWS.  Could you please let me know if I can access GeoAnalytics through UCLA or other ESRI analytics tools to read data from AWS and save some processing time?  Thank you| Make an appointment with Zhiyuan","DSC"
+2022-01-13,"Kristian Allen","Public Affairs",NA,"Virtual Studio Code/ GIS| 45 Minute Meeting","DSC"
+2022-02-08,"Zhiyuan Yao","Education","Graduate Student","Coding/Programming|Using R on a research project| Data & Coding Consultation","DSC"
+2022-02-15,"Zhiyuan Yao",NA,"Graduate Student","Data Analysis
+Code/Programming|| Make an appointment with Zhiyuan","DSC"
+2022-02-23,"Zhiyuan Yao","Education","Graduate Student","Looking for data
+Geospatial data/GIS
+Data Sharing and Publishing|Hello, I was
+wondering if there is someone I might consult with on sources for shapefiles
+at the neighborhood level in Los Angeles. I would like to conduct my
+dissertation research using LA neighborhood boundaries and am unsure of the
+implications of using the LA Times boundaries licensed under Creative Commons
+so I am looking for suitable alternatives. Many thanks!| Make an appointment with Zhiyuan","DSC"
+2022-03-02,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Continuing my PM2.5 Project. I am trying to make maps representative of the zonal statistics that we did to create my zip code estimates.| Make an appointment with Zhiyuan","DSC"
+2022-03-16,"Julia Wood","Information Studies","Graduate Student","Data Wrangling and Cleaning
+Geospatial data/GIS|Tableau mapping help!| 45 Minute Meeting (One-on-One)","Other"
+2022-03-21,"Zhiyuan Yao",NA,"Visiting Associate Researcher","Data Management Planning|I am an Italian researcher in Egyptology engaged at the NELC-
+UCLA (with Prof. Kathlyn Cooney) as Visiting Associate Researcher (Employee ID: 10537282).
+I won an European Fellowship (Marie Sklodownsca Curie) with a Project on Ancient Egyptian Yellow Coffins.I really want to know something more on DMP because the EU asked us to send and update the DMP each 6 months. I prepared the first one, alone and without competences so I really would like to know if it can work and  have some suggestions to update it and prepare a good DMP before sending the updated one within April.| Data Management, Sharing & Publishing","DSC"
+2022-03-29,"Zhiyuan Yao",NA,"Staff","Geospatial data/GIS|trouble accessing arcpro| Make an appointment with Zhiyuan","DSC"
+2022-04-04,"Zhiyuan Yao",NA,"Undergraduate","Data Wrangling and Cleaning
+Data Analysis
+Code/Programming|Hi! I'm an undergrad looking for some help on the data analysis I'm doing for my senior capstone. I collected data via Google Forms, analyzing using R and Excel. Mostly need help deciding which tests would be best to run and having someone look over my data to see if I cleaned/organized it properly.| Make an appointment with Zhiyuan","DSC"
+2022-04-04,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-04-13,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS
+Geocoding remote locations in Colombia|| Make an appointment with Zhiyuan","DSC"
+2022-04-07,"Zhiyuan Yao","Urban Planning","Graduate Student","Geospatial data/GIS|I am trying to estimate the cooling effect of parks using 4 indicators:
+The maximum local cool island intensity (MLCII)
+the maximum cooling distance (MCD)
+the maximum cooling area (MCA)
+Maximum cooling efficiency (MCE)
+
+
+
+Create a series of 10m buffer rings up to 500 m starting from the boundary of each park and get mean LST| Geospatial Analysis and GIS Support","DSC"
+2022-04-07,"Jamie Jamison","Urban Planning","Graduate Student","Geospatial data/GIS|I am trying to estimate the cooling effect of parks using 4 indicators:
+The maximum local cool island intensity (MLCII)
+the maximum cooling distance (MCD)
+the maximum cooling area (MCA)
+Maximum cooling efficiency (MCE)
+
+
+
+Create a series of 10m buffer rings up to 500 m starting from the boundary of each park and get mean LST| Geospatial Analysis and GIS Support","DSC"
+2022-04-08,"Zhiyuan Yao",NA,"Undergraduate","Coding/Programming|permutation test| Data & Coding Consultation","DSC"
+2022-04-13,"Zhiyuan Yao","Urban Planning","Graduate Student","Geospatial data/GIS|question on performing complex calculations with pixels in overlapping buffers
+
+I need to calculate an adjusted temperature from overlapping buffers from other parks. There is in equation given in Wu et al. 2021 paper to account for this overlap, but in order to calculate it you need to be able to isolate pixels that fall into overlapping buffers from other parks, which I am not sure how to do.| Make an appointment with Zhiyuan","DSC"
+2022-04-18,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS
+Geolocating remote areas in Colombia|| Make an appointment with Zhiyuan","DSC"
+2022-04-15,"Zhiyuan Yao",NA,"Graduate Student","Using GAM and spline regression in R|I would like ask about how to use GAM, natural spline regression, and check its AIC/BIC in R. I am managing to model daily meteorological variables, COVID incidence count at zip code level,  and air pollution using GAM. But, I have little idea on how to do it in R.| Statistical Consulting","DSC"
+2022-04-18,"Zhiyuan Yao",NA,"Graduate Student","Code/Programming
+Geospatial data/GIS|having troubling calling Google API for R geospatial project.| Make an appointment with Zhiyuan","DSC"
+2022-04-26,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2022-05-03,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2022-04-25,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2022-04-26,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2022-04-26,"Zhiyuan Yao",NA,NA,"Interview-Project Manager Data Squad","DSC"
+2022-04-28,"Leigh Phan",NA,NA,"Geospatial analysis of helicopter patrols| 45-min Consultation Appointment","DSC"
+2022-05-03,"Zhiyuan Yao",NA,"Undergraduate","Data Analysis
+Coding/Programming
+Data Management Planning|I would like to discuss correcting my P values for my data but I will generate dummy data| Statistical Consulting","DSC"
+2022-05-06,"Zhiyuan Yao",NA,"Undergraduate","interview discussion|Discussing interview candidates and selecting finalists| DataSquad Team","DSC"
+2022-05-05,"Zhiyuan Yao",NA,NA,"Meeting with Tim & Zhiyuan","DSC"
+2022-05-11,"Zhiyuan Yao","Molecular Biology","Graduate Student","Code/Programming|Trying to create a matrix in Python following a pipeline for whole genome bisulfite sequencing called BS Bolt. Getting syntax errors when trying to create the matrix that I have not been able to resolve. Can send images of my Jupyter notebook.| Make an appointment with Zhiyuan","DSC"
+2022-05-11,"Zhiyuan Yao",NA,"Undergraduate","Geospatial data/GIS|I need some help using Mapbox, particularly in adding a WMS layer. A rough idea of what I am trying to do: https://www.energyatlas.ucla.edu/| Make an appointment with Zhiyuan","DSC"
+2022-05-16,"Zhiyuan Yao",NA,"Undergraduate","Looking for data
+Data Wrangling and Cleaning
+Data Analysis|I am having difficulty coding missing values in my SPSS data. Please help as soon as possible, earlier than 2:30| Data & Coding Consultation","DSC"
+2022-05-17,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS
+Following up on access to GIS Pro|We have been in communication via email regarding my inability to log into my account due to offline settings. I am scheduling this meeting to have a one-on-one and hear more on alternatives to get access. Any info helps! 
+
+I appreciate your time! 
+Best,
+Lupe| Make an appointment with Zhiyuan","DSC"
+2022-05-19,"Zhiyuan Yao","Public Health","Graduate Student","Data Analysis
+Geospatial data/GIS|I'm looking for help conducting a spatial autoregression in R.| Make an appointment with Zhiyuan","DSC"
+2022-06-30,"Leigh Phan",NA,"Graduate Student","Looking for data
+Data Analysis
+Coding/Programming
+Geospatial data/GIS|I took R programming. I have knowledge in package installation. Needing assistance with looking for data and interpreting on R and introduction to GIS.| Data & Coding Consultation","DSC"
+2022-07-01,"Jamie Jamison",NA,"Graduate Student","Looking for data
+Data Analysis
+Coding/Programming
+Geospatial data/GIS|I am an incoming 2nd year UCLA master of public policy student. I have set up a meeting regarding GIS and R programming. I have not taken a GIS course, and I needed assistance on how to generate primary data and interpret secondary data in R in regards to census data. My area of focus is in workforce development (company relocation and city comparison).| Geospatial Analysis and GIS Support","DSC"
+2022-06-30,"Zhiyuan Yao","Public Affairs","Graduate Student","Looking for data
+Data Analysis
+Code/Programming
+Geospatial data/GIS
+Data Management Planning|| Make an appointment with Zhiyuan","DSC"
+2022-07-19,"Zhiyuan Yao",NA,NA,"DataSquad Project Manager Interview","DSC"
+2022-07-20,"Zhiyuan Yao",NA,NA,"DataSquad Project Manager Interview","DSC"
+2022-07-13,"Zhiyuan Yao",NA,NA,"DataSquad Assistant Technical Writer Interview","DSC"
+2022-07-12,"Zhiyuan Yao",NA,NA,"DataSquad Assistant Technical Writer Interview","DSC"
+2022-07-12,"Zhiyuan Yao",NA,NA,"DataSquad Assistant Technical Writer Interview","DSC"
+2022-07-19,"Zhiyuan Yao",NA,NA,"DataSquad Project Manager Interview","DSC"
+2022-07-14,"Zhiyuan Yao",NA,"Staff","Geospatial data/GIS
+Data Management Planning
+Data Sharing and Publishing
+Other
+Hello! I hope you're doing well. I'm meeting with a colleague on Friday who is planning a digital project that involves mapping bounty lands. I want to meet with you first so I can be more prepared to share with her information about digital tools, etc. || Make an appointment with Zhiyuan","DSC"
+2022-07-14,"Zhiyuan Yao","Institute of the Environment and Sustainability","Faculty","Geospatial data/GIS|Hi Zhiyuan, i hope you’re doing well! I’m in the process of sorting out how to deal with GIS for our students in the fall and had a few questions about access for ArcGIS Pro and online for them - look forward to talking briefly!| Make an appointment with Zhiyuan","DSC"
+2022-07-18,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Code/Programming
+Geospatial data/GIS|I am analyzing and mapping police helicopter flight trajectories in LA. I want to refine some of my statistics on these flights, including the statistical significance of factors such including altitude, hours flown, and time spent in orbit, as correlated with neighborhood demographics. In doing so, I need to find a way to control for the area of these neighborhoods, as they differ in size.| Make an appointment with Zhiyuan","DSC"
+2022-07-20,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Geospatial data/GIS|Hi, I'm a Ph.D student in cinema and media studies. Broadly speaking, my research looks at how pre-1960 European films that featured African American leads were received by Black critics in the US. As I do more research, I've realized that I need to map the circulation of these films in order to track exactly how critical attitudes evolved during their circulation. I have a pretty good idea how to find the information, but beyond that I'm not sure how to map it usefully.| Make an appointment with Zhiyuan","DSC"
+2022-07-20,"Zhiyuan Yao",NA,NA,"DataSquad Project Manager Interview","DSC"
+2022-07-20,"Zhiyuan Yao",NA,"Undergraduate","Coding/Programming|I am trying to figure out how to run the algorithms that have been presented in a piece of research that I have found.| Data & Coding Consultation","DSC"
+2022-07-21,"Jamie Jamison","Political Science","Undergraduate","Data Wrangling and Cleaning
+Data Analysis
+Coding/Programming
+Geospatial data/GIS|I'm currently working on a project that tracks fatal encounters with police in San Jose based on the demographics of the victim and the officer. I have most of my data but am unsure of the next steps to take in terms of data cleaning and visualizing it. Ideally, in the end, the data will be publicly available and easy to read/update.| Data & Coding Consultation","DSC"
+2022-07-26,"Zhiyuan Yao","Public Affairs","Undergraduate","Data Analysis
+Code/Programming
+Geospatial data/GIS|helicopter flight trajectories| Make an appointment with Zhiyuan","DSC"
+2022-08-01,"Zhiyuan Yao",NA,NA,"Meeting with Tim & Zhiyuan","DSC"
+2022-08-17,"Zhiyuan Yao",NA,"Graduate Student","Code/Programming
+Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-09-12,"Zhiyuan Yao","Library","Staff","Data Wrangling and Cleaning
+Data Analysis|I'm conducting a survey that uses two existing validated measures (one for burnout and one for job control). I think the scoring for burnout and job control are fairly simple, but I want to see the correlation and also compare between subpopulations based on collected demographic data. Mostly, I'm wondering if R is a suitable choice for analysing the survey data or if something else would be a better choice, and if there's anything else that would make the process easier.| Data & Coding Consultation","DSC"
+2022-09-16,"Zhiyuan Yao","Public Health","Graduate Student","Data Analysis|I am working on logistic regression with SAS and I am encountering some errors and numbers that do not make sense when interpreting. Thanks!| Statistical Consulting","DSC"
+2022-09-16,"Vincenty Front","Public Health","Graduate Student","Data Analysis|I am working on logistic regression with SAS and I am encountering some errors and numbers that do not make sense when interpreting. Thanks!| Statistical Consulting","Datasquad"
+2022-09-20,"Zhiyuan Yao","Urban Planning","Graduate Student","Data Analysis
+Geospatial data/GIS|I am doing some work for Center for Neighborhood Knowledge, and currently am working on bringing in shape files and geospatial points from geocoded data, would like to learn any useful tips and tricks in ARCGIS since Yoh trained me using python| Make an appointment with Zhiyuan","DSC"
+2022-09-22,"Zhiyuan Yao","Community Health Sciences","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-09-23,"Zhiyuan Yao","Community Health Sciences","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-10-12,"Zhiyuan Yao","Institute of the Environment and Sustainability","Staff","Other
+Carpentries workshop hosted at the IoES|I'm surveying our graduate students about interest in the IoES hosting at Carpentries workshop.| Make an appointment with Zhiyuan","DSC"
+2022-09-30,"Zhiyuan Yao","History","Undergraduate","Looking for data
+Data Analysis
+Data Management Planning
+Data Sharing and Publishing|Research Topic: Real Estate Ownership in the Black and Native Communities, its Relation to Web3 Digital Estate Ownership, & its Correlation to the Creation of Generational Wealth
+
+Description: 
+     I would like to conduct a research project as an undergraduate.
+     I have an interest in analysing data regarding the rates of real estate ownership in the Black American and First Nation communities. Specifically in North America, with a preference towards analyzing the Western-Pacific region, (as long as this preference won’t limit my grad school prospects).
+     I am also incredibly interested in how these ownership rates may or may not translate to digital estate ownership with the creation and impending rise of web3. 
+
+     The core relevance of my project is tracking and (an attempt at) proving a correlation between ownership rates in these markets and generational wealth/income level.
+     I am very concerned about whether or not my research topic is compelling enough to be awarded funding, and would like further instruction/assistance on how to communicate that this research will be “useful” to the modern world.
+     Any guidance you could provide me on constructing a compelling research proposal regarding this topic(s), and resources to execute the project, would be greatly appreciated.
+
+Resources so far: 
+1. Most of my resources have been in-person primary accounts of personal experiences. Direction towards any online databases or collections is needed and will be appreciated.
+
+2. Report: The Road to Zero Wealth report published by Prosperity Now and the Institute for Policy Studies.| Data & Coding Consultation","DSC"
+2022-10-05,"Zhiyuan Yao",NA,"Staff","Geospatial data/GIS|To discuss potential partnership on research project for CalHFA that includes the development of a mapping tool that displays data and information.| Make an appointment with Zhiyuan","DSC"
+2022-10-12,"Zhiyuan Yao",NA,NA,"Finding my n in a big dataset.| Statistical Consulting","DSC"
+2022-10-17,"Zhiyuan Yao",NA,"Faculty","Data Analysis|| Make an appointment with Zhiyuan","DSC"
+2022-10-20,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS
+Data Sharing and Publishing|| Make an appointment with Zhiyuan","DSC"
+2022-10-20,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-10-21,"Emily Gong",NA,NA,"logistic regression data interpretation help please! specifically odds ratios and predicted probabilities| 30 Minute Meeting","Other"
+2022-10-27,"Zhiyuan Yao",NA,"Staff","Geospatial data/GIS
+Talk shop about all of the above!|I am new to OARC, with specialties in GIS, Data visualization, Python, etc - I would like to talk shop, see how we could collaborate, etc| Make an appointment with Zhiyuan","DSC"
+2022-10-26,"Zhiyuan Yao",NA,"Staff","Data Wrangling and Cleaning
+Code/Programming
+Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-11-02,"Zhiyuan Yao","Institute of the Environment and Sustainability","Undergraduate","Data Analysis
+Geospatial data/GIS|I am putting together a research project on the impact of lead in schools. I have a dataset containing lead measurements from schools across the country. The problem is that it is an excel file. I was hoping someone could help me create a map showing lead concentrations of various schools in LA County. My idea was to filter by school districts and then change the symbology to show lead concentrations but I am not sure how to append the data from the excel sheet to a map of schools, which for some reason will not open on my remote desktop.| Geospatial Analysis and GIS Support","DSC"
+2022-11-29,"Zhiyuan Yao",NA,"colleague","Data Management Planning|We need help thinking about how to code/reference entries in an on-line database so that related topics are linked. We KNOW that we can 'hard code' these links, but are exploring what we must do to create a more automated AI? approach. This is for a large project we're developing called the Integrative Conservation Clinic https://www.conservationtoolboxproject.org/| Data & Coding Consultation","DSC"
+2022-11-07,"Zhiyuan Yao","History","Faculty","Geospatial data/GIS|I'm using GIS storymaps for my class. You set up a group for me and I just have some questions about how it works.
+Also (and this might require a separate meeting), I'm directing a research project that I think could benefit from GIS, and I'm wondering where I might be able to access some basic training in QGIS/ArcGIS.| Make an appointment with Zhiyuan","DSC"
+2022-11-09,"Zhiyuan Yao","Public Health","Postdoc","Looking for data|looking for 3D building stock datasets| Data Management, Sharing & Publishing","DSC"
+2022-11-14,"Zhiyuan Yao",NA,"Staff","Data Analysis
+Code/Programming
+Geospatial data/GIS|Hi! I'm looking for help on how to do a spatial join between point data and polygon data in R| Make an appointment with Zhiyuan","DSC"
+2022-11-18,"Zhiyuan Yao",NA,"Undergraduate","Looking for data
+Data Wrangling and Cleaning|I’m a communication major student. These days’ the UAW strike attracts much attention. The union’s description mentioned that the main reason they want to get higher pay for graduate researchers and teaching assistants is that the housing fee cost students too much; they need to pay 40% of their incomes in housing. I want to conduct a research and acquiring data on renting fees in different regions of LA county and use them to compare with UCLA research employees’ salaries. I want to find out whether that is a low salary issue faced by the UC system or a housing issue faced by all Los Angeles research employees.| Data Management, Sharing & Publishing","DSC"
+2022-11-21,"Zhiyuan Yao","Political Science","Undergraduate","Geospatial data/GIS|I am looking at LA county statics and would like help understanding data sets.| Geospatial Analysis and GIS Support","DSC"
+2022-11-22,"Zhiyuan Yao","Political Science","Graduate Student","Geospatial data/GIS|Very new to ArcGis, had to download it for a research project with a UCLA professor. Working to get a previous researchers code running (arcpy code that reads shapes files and then maps a path of least geographically resistance for railroads in Russia early 20th century). I still have all the code and shape files, but I am stuck on reading those shape files. The next challenge will be then combining several of the maps into one coherent map.| Make an appointment with Zhiyuan","DSC"
+2022-11-21,"Zhiyuan Yao","Institute of the Environment and Sustainability","Undergraduate","Data Analysis|I have a data set that I need help geocoding and converting to something visible in ArcGIS| Data & Coding Consultation","DSC"
+2022-11-23,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning|I need help with finding a RAw expression matrix when I only have the GTF file. I need to find the fasta files. 
+
+Nina| Make an appointment with Zhiyuan","DSC"
+2022-12-05,"Zhiyuan Yao",NA,NA,"General research for GIS topics| GIS","DSC"
+2022-12-05,"Zhiyuan Yao","Digital Humanities","Faculty","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2022-12-09,"Zhiyuan Yao",NA,"Graduate Student","Data Analysis
+Geospatial data/GIS|Currently doing a study that might require a spatial lag model; can spatial lag or spatial error be done in conjunction with other models (e.g., OLS) and how?| Make an appointment with Zhiyuan","DSC"
+2023-01-11,"Jamie Jamison","Political Science","Undergraduate","Coding/Programming
+Geospatial data/GIS|I'm interested in using data either from Fatal Encounters (https://fatalencounters.org/spreadsheets/) or (https://github.com/washingtonpost/data-police-shootings/blob/master/v2/fatal-police-shootings-data.csv) to find census tract data using the latitude and longitude provided in the csv files. I'm especially interested in income, poverty rate, and unemployment rates. I am unfamiliar with what the easiest way to download the census tract data without entering each latitude and longitude into a geocoding tool individually.| Geospatial Analysis and GIS Support","DSC"
+2023-01-24,"Jamie Jamison","Institute of the Environment and Sustainability","Undergraduate","Data Analysis|Having trouble filtering data in excel and uploading it to ArcGIS| Geospatial Analysis and GIS Support","DSC"
+2023-02-03,"Jamie Jamison","Institute of the Environment and Sustainability","Undergraduate","Data Analysis
+Geospatial data/GIS|I am trying to do a spatial join/merge of two datasets that I have already in a file.| Geospatial Analysis and GIS Support","DSC"
+2023-02-07,"Jamie Jamison","Institute of the Environment and Sustainability","Undergraduate","Data Analysis|Looking to do a spatial join/ find a way to join two data sets I already have in a file.| Geospatial Analysis and GIS Support","DSC"
+2023-02-10,"Jamie Jamison","Gender Studies","Graduate Student","Geospatial data/GIS|Mapping mythological sites using QGIS| Geospatial Analysis and GIS Support","DSC"
+2023-02-23,"Jamie Jamison","Anthropology","Undergraduate","Geospatial data/GIS|My group and I are working with the Fowler to present one of their collections on arcGIS and were having trouble with sharing our storymap with each other so that we could all work on it. If we could have help on that it would be greatly appreciated!| Geospatial Analysis and GIS Support","DSC"
+2023-03-01,"Jamie Jamison",NA,"Faculty","Geospatial data/GIS|My class is using ArgGIS StoryMap for their final project and they are having issues editing their story maps.| Geospatial Analysis and GIS Support","DSC"
+2023-03-17,"Jamie Jamison","Information Studies","Graduate Student","Geospatial data/GIS|I am working on a digital humanities project that involves creating a map. I'm having trouble creating map layers and finding data suitable to create population density layers.| Geospatial Analysis and GIS Support","DSC"
+2023-03-21,"Jamie Jamison",NA,"Staff","Geospatial data/GIS|We are looking to find and set up a US map file to share policy data on paid family leave in all 50 states plus Puerto Rico. We have only been able to work with a shapefile that includes all 50 states but excludes Puerto Rico. We currently have an ArcMap project set up, so we are happy to share that with you if that helps during the appointment! Much appreciated, Mike| Geospatial Analysis and GIS Support","DSC"
+2023-04-05,"Tim Dennis",NA,NA,"LARIAC Request - City of Diamond Bar 3-Year Road Rehabilitation project.| Meeting with Tim Dennis (Work hours)","DSC"
+2023-04-19,"Zhiyuan Yao",NA,NA,"Hey Zhiyuan!
+
+I'm working on a project with a faculty member and I'm having a really hard time clipping a raster using a polygon in QGIS (extracting by mask). I can share the files with you, if that's helpful!
+
+Thanks!| GIS","DSC"
+2023-04-27,"Jamie Jamison","Library","Undergraduate","Geospatial data/GIS
+Data Management and Planning|We are trying to come up questions with data and how we could use ArcGis with it.| Geospatial Analysis and GIS Support","DSC"
+2023-05-11,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning|I am working with R-studio with low intermediate proficiency. I want to load a Shape file (SHP format) with R studio but I have been unable to read the object. Kind plea, my session on Wednesday was cancelled but my deadline is Thursday morning. If I can just please be on standby anytime on Wednesday please let me know but I'll keep the 8:00 am Thursday slot.| Geospatial Analysis and GIS Support","DSC"
+2023-05-15,"Zhiyuan Yao",NA,NA,"Lesson Infrastructure Developer Interview","DSC"
+2023-05-15,"Zhiyuan Yao",NA,NA,"Lesson Infrastructure Developer Interview","DSC"
+2023-05-22,"Zhiyuan Yao",NA,NA,"Lesson Infrastructure Developer Interview","DSC"
+2023-05-16,"Zhiyuan Yao","Political Science","Undergraduate","Trying to conduct a comparative large n-study with a t-test design
+
+https://docs.google.com/spreadsheets/d/1ZnBRfjpJkcmhKb-PIc4DkDZ5fyOhmgSZTfkxBGJTIHk/edit?usp=sharing| Statistical Consultation","DSC"
+2023-05-24,"Zhiyuan Yao",NA,NA,"Lesson Infrastructure Developer Interview","DSC"
+2023-05-26,"Zhiyuan Yao",NA,"Graduate Student","Data Wrangling and Cleaning
+Code/Programming
+Geospatial data/GIS|I'm working on shapefiles that map LA County parcels, with each parcel having a score for thermal performance. My geometry column (multipolygon) is now a list class function? And I don't know what to do now because I need it to be a multipolygon and this was the original data, so I can't simply rewrite it. I'm working with Rstudio.| Make an appointment with Zhiyuan","DSC"
+2023-05-30,"Zhiyuan Yao",NA,"Graduate Student","Data Management Planning|| Make an appointment with Zhiyuan","DSC"
+2023-06-01,"Zhiyuan Yao","Archaeology","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2023-05-30,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-01,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-05-30,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-06-06,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-01,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-07,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-06-02,"Zhiyuan Yao","Library","Undergraduate","Tech Writer|| Make an appointment with Zhiyuan","DSC"
+2023-06-01,"Zhiyuan Yao","Archaeology","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2023-06-01,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-06-06,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-01,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-07,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-06-02,"Zhiyuan Yao","Library","Undergraduate","Tech Writer|| Make an appointment with Zhiyuan","DSC"
+2023-06-13,"Vince Front","Psychology","Graduate Student","For a side project I'm working on, I put together a graph mapping Starbucks store openings and closures alongside Starbucks union elections, pulling data (rather crudely) from three different web sources. I'd like to create something like a Shiny app to display this visualization with up-to-date data, or at least learn how best to collect and clean that data. I have a rudimentary understanding of Python and have decent skills in R (good with stats, not-so-good with coding). I can share the viz when we meet!
+
+I should highlight that this project was a little off the cuff and limited by both a time crunch and my coding skills, but I'd love to expand on it over the summer. 
+
+Thanks so much! Looking forward to talking further. :)
+Jason| Data Collection, Cleaning, or Manipulation","Datasquad"
+2023-06-09,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-09,"Zhiyuan Yao",NA,NA,"Technical Writer Interview - Data Science Center","DSC"
+2023-06-12,"Zhiyuan Yao",NA,"Undergraduate","I am currently investigating how travel frequency relates to recognizing ingroup members as compared with outgroup members. The first phase consisted of 3 trials, each with 16 facial stimuli pairs. Participants were instructed to choose whether the image pair was the “same” or “different.” Afterwards, a sum of 16 images appeared in a randomized order, 8 of which did not appear in previous trials. Subjects were instructed to choose whether the image was presented in a previous trial (“old”) or not (“new”). Participants were then asked to complete a self-report survey to assess international travel frequency and enjoyment of travel. A scale of 1-5 was used, with 5 indicating the highest travel frequency and enjoyment.
+
+I hypothesized that those with higher travel frequencies will correctly assess outgroup members more often than those who do not travel. I also hypothesized that participants will recognize ingroup members more often than outgroup members during recall. | Statistical Consultation","DSC"
+2023-06-07,"Zhiyuan Yao",NA,NA,"DataSquad - Technical Writer- Interview","DSC"
+2023-06-07,"Zhiyuan Yao",NA,NA,"Looking forward to my interview.| DataSquad - Technical Writer- Interview","DSC"
+2023-06-14,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|Need help with GWPR/GWR set up in R.| Make an appointment with Zhiyuan","DSC"
+2023-06-16,"Zhiyuan Yao","Digital Humanities","Graduate Student","Hi, I am working on a Carto map with multiple layers and I would like to add the amazon basin outline into my map. I have found a number of sites that have the shapefiles, such as https://github.com/gamamo/AmazonBasinLimits and https://daac.ornl.gov/LBA/guides/CD06_CAMREX.html#HDataDescrAccess, but I have been unable to extract the data and create a new ArcGIS layer. Can you assist with this? 
+Thank you,
+Diana| Geospatial Analysis and GIS Support","DSC"
+2023-06-20,"Zhiyuan Yao",NA,"Graduate Student","Geospatial data/GIS|GWR help| Make an appointment with Zhiyuan","DSC"
+2023-06-20,"Zhiyuan Yao",NA,NA,"IMLS Meeting - Loretta","DSC"
+2023-06-20,"Zhiyuan Yao",NA,NA,"IMLS Meeting - Loretta","DSC"
+2023-07-06,"Zhiyuan Yao",NA,"Staff","Need to talk with someone about the changes to ArcGis desktop licensing, and how to migrate workflows and courses to the new online platform.| Geospatial Analysis and GIS Support","DSC"
+2023-07-24,"Zhiyuan Yao",NA,"Graduate Student","I want to meet with someone bc I'm in the beginning stages of my project. My project is looking into patient-reported outcomes of surgical scars and potential barriers to revision.| Statistical Consultation","DSC"
+2023-07-25,"Zhiyuan Yao",NA,"Undergraduate","imls work questions|| Make an appointment with Zhiyuan","DSC"
+2023-07-24,"Zhiyuan Yao","Library","Staff","I don't need specific research help, but I recently started working here as the Geography and Maps librarian at YRL. I'd love to chat with a GIS person who might have advice for me in terms of what software I should be up to date on and frequently asked GIS questions. Also, I'd love if you can share with me more about what GIS services the Data Science Center provides for when I'm referring patrons, such as what is within or beyond your working scope. I'm also fairly new to GIS as a whole so any general advice would be wonderful! 
+Thank you and I look forward to meeting with you :)| Geospatial Analysis and GIS Support","DSC"
+2023-07-25,"Zhiyuan Yao","Education","Graduate Student","Data Wrangling and Cleaning
+Geospatial data/GIS|Hello! I am working in ArcGIS and R to create an index for college opportunity in LA County for my dissertation. I would like some feedback on my approach thus far and some help brainstorming next steps in the analysis/data cleaning. Thanks!| Make an appointment with Zhiyuan","DSC"
+2023-07-24,"Zhiyuan Yao","Civil and Environmental Engineering","Undergraduate","Data Analysis
+Code/Programming
+Geospatial data/GIS|I am making a map on ArcGIS to investigate the NYC truck collisions and traffic volume. I am having trouble with ""normalizing"" my crash data, by dividing the crash count by the traffic volume count from the two different files. Both of these files have longitude and latitude coordinates and I was wondering if there was a way to approximate the coordinates and merge the data points from there to normalize them. Could this be done on ArcGIS Pro, and how?| Make an appointment with Zhiyuan","DSC"
+2023-07-25,"Zhiyuan Yao",NA,NA,"collab lesson dev practice","DSC"
+2023-07-27,"Zhiyuan Yao",NA,NA,"Episode, defining episode lesson objectives| Episode objectives","DSC"
+2023-07-28,"Zhiyuan Yao","Education","Graduate Student","Data Analysis
+Geospatial data/GIS|Hello! I am creating polygons in ArcGIS to delineate student contexts and populating each context with the corresponding census tract level data. I have done this before in an older version of ArcGIS and with different census tract variables but I am running into a few different issues this time around. For example, the appropriate population to use when apportioning the census tracts (census tract population vs. pop over 25 for educational attainment). Thanks!| Make an appointment with Zhiyuan","DSC"
+2023-08-01,"Zhiyuan Yao","Education","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2023-08-03,"Zhiyuan Yao",NA,"Staff","Data Analysis
+Code/Programming
+Geospatial data/GIS|I'm looking for your advice on creating a sensitivity and uncertainty measure of a new index we have created.  The index is spatial in nature, but I am trying to figure out how sensitive it is to missing values in the source database. 
+
+I'd also like to discuss how to impute missing values based on an average of nearest neighbors.| Make an appointment with Zhiyuan","DSC"
+2023-08-04,"Zhiyuan Yao",NA,"Other","Other|I can send you a Zoom invite when confirmed.| Make an appointment with Zhiyuan","DSC"
+2023-08-02,"Zhiyuan Yao",NA,NA,"CARE Principles project| Meeting with Tim and Zhiyuan","DSC"
+2023-08-15,"Zhiyuan Yao","Library Special Collections","Staff","I manage the Library's environmental monitoring for temperature and relative humidity in our library collection areas. At the moment, we use a 3rd party software for graphical output and report generation, but it doesn't cover all our needs.
+
+I have developed a rudimentary dashboard in Excel to illustrate when we are outside a preservation standard for temperature/relative humidity, but since I do not have a statistics background, I know I am limited for data analysis. I would like to be able to look at the relationship between outside air and our recorded conditions, impact from events (ie: equipment failures, upgrades/added items, HVAC shutdowns), and reflect on the annual trends we're seeing in different seasons. Below is an example of one location, but we are scaling this across multiple buildings. I can explain more of the logic and what I was trying to achieve.
+
+My supervisor has already found this helpful to describe a sample of the felt-conditions of our collection and quantifying our seasonal challenges, but I believe my prototype needs improvement. I do not have a statistics background, but a strong interest in making sure we have a useful tool that isn't misguiding our department.| Statistical Consultation","DSC"
+2023-08-17,"Zhiyuan Yao","Information Studies","Staff","I am trying to share my maps with other members of a group but I can't create a group that include those not at ucla and I can't save some of my maps| Geospatial Analysis and GIS Support","DSC"
+2023-08-30,"Zhiyuan Yao",NA,NA,"start to plan for in-person consulting.| In person consulting planning","DSC"
+2023-08-28,"Zhiyuan Yao","Political Science","Faculty","Geospatial data/GIS|Need help with Spatial join and ""sum within"" for ArcGIS. Thank you!| Make an appointment with Zhiyuan","DSC"
+2023-08-30,"Zhiyuan Yao","Medicine","Staff","We need help in writing an analysis for research data| Statistical Consultation","DSC"
+2023-09-01,"Zhiyuan Yao",NA,"Graduate Student","I'm having trouble using the tool ""Geocode Addresses"" in ArcGIS Pro. I'm trying to get latitude and longitude from the variables school_name and school_address. I also want to better understand the limitations of my type of account (I think I'm out of credits) and whether there are any other alternatives (free preferably) to get latitude and longitude.| Geospatial Analysis and GIS Support","DSC"
+2023-09-05,"Zhiyuan Yao",NA,"Graduate Student","I'd like help with making summary tables of my data.| Statistical Consultation","DSC"
+2023-09-06,"Zhiyuan Yao",NA,NA,"CARE Principles project| Meeting with Tim and Zhiyuan","DSC"
+2023-09-08,"Zhiyuan Yao","Sociology","Graduate Student","In collaboration with a community organization, I collected data on parking regulations in Venice. Generally, most people drew out their data on maps. My questions, then, are as follows: 1) how can this sort of data be mapped into ArcGIS? 2) how will the data need to be transformed so as to be ready for import into ArcGIS? Thanks!| Geospatial Analysis and GIS Support","DSC"
+2023-09-08,"Zhiyuan Yao","Education","Graduate Student","Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2023-09-15,"Zhiyuan Yao","Anthropology","Graduate Student","Data Analysis
+Geospatial data/GIS|| Make an appointment with Zhiyuan","DSC"
+2023-09-18,"Zhiyuan Yao",NA,NA,"Dispersal of funds for the Team Agreements Lesson Group.| Grant Administration and Logistics","DSC"
+2023-09-18,"Tim Dennis",NA,NA,"Dispersal of funds for the Team Agreements Lesson Group.| Grant Administration and Logistics","DSC"
+2023-09-19,"Zhiyuan Yao",NA,"Graduate Student","trying to migrate storymap to personal account but when i logon to UCLA account story map not there| Geospatial Analysis and GIS Support","DSC"
+2023-09-19,"Zhiyuan Yao","Facilities Management","Staff","Other
+Introduction|| Make an appointment with Zhiyuan","DSC"
+2023-09-22,"Zhiyuan Yao",NA,NA,"Python Script Overview| Meeting with Tim and Zhiyuan","DSC"
+2023-09-28,"Zhiyuan Yao",NA,"Graduate Student","Hello! I need guidance on how to build a statistical regression model that can infer/impute missing data. My thesis proposal is to create a methodology to identify areas where data related to migrant deaths is likely missing. I would like to build a model that takes into consideration difficulty of terrain, total number of (living) migrants, family reports of missing migrants, and existing data related to migrant deaths. I will be using the Missing Migrants Project open-source database for existing data on migrant deaths, and will model major migratory routes using GIS in order to code terrain difficulty. I was sent your way by Kelsey Brown, a UCLA research librarian, as it has proved challenging to find relevant background research on this topic.| Statistical Consultation","DSC"
+2023-09-28,"Zhiyuan Yao",NA,NA,"having trouble accessing ArcGIS Pro on my laptop| Meeting with Zhiyuan Yao","DSC"
+2023-09-29,"Zhiyuan Yao","Computer Science","Undergraduate","Need statistical help with SPSS 3-way Repeated Measures ANOVA on mice data to analyze the effect of cigarettes/E-cigs and diet on weight.| Statistical Consultation","DSC"
+2023-09-29,"Zhiyuan Yao",NA,NA,"Discussing 1) in person office hours 2) finding a time for data squad meeting 3) finding a weekly meeting time for me and you and Tim| Meeting with Zhiyuan Yao","DSC"
+2023-10-04,"Zhiyuan Yao","Library","Undergraduate","Quick tutorial on how to use Canva to make DSC flyer| 30 Minute Meeting","DSC"
+2023-10-06,"Zhiyuan Yao",NA,NA,"Weekly meeting| Meeting with Tim and Zhiyuan","DSC"
+2023-10-06,"Zhiyuan Yao",NA,"Graduate Student","The first step that I am interested in is for someone to check/help me certified my portable XRF results against industry standards (for accuracy and precision). Then I would like to create linear regression models for my data| Statistical Consultation","DSC"
+2023-10-12,"Zhiyuan Yao","Multiple Departments","Undergraduate","I cannot figure out how to acess ArcGIS in order to do my assignments.| Geospatial Analysis and GIS Support","DSC"
+2023-10-13,"Zhiyuan Yao",NA,NA,"IMLS Meeting","DSC"
+2023-10-13,"Zhiyuan Yao","Library","Undergraduate","Mailchimp and feedback for library flyer| 30 Minute Meeting","DSC"
+2023-10-18,"Zhiyuan Yao",NA,NA,"Melina should participate in the meeting.| Meeting with Tim and Zhiyuan","DSC"
+2023-10-30,"Zhiyuan Yao","Library","Undergraduate","1-1 appointment, feedback with Suzy| 30 Minute Meeting","DSC"
+2023-10-31,"Zhiyuan Yao",NA,"Staff","I am working on a mapping project that links zip codes to specific counties in Los Angeles. I would like to understand how to link more than 1 data file to multiple layers and also how to create quartiles in ArcMap.| Geospatial Analysis and GIS Support","DSC"
+2023-11-03,"Zhiyuan Yao","Library","Undergraduate","Catch up about flyer| 30 Minute Meeting","DSC"
+2023-11-09,"Zhiyuan Yao","Library","Undergraduate","Checking in on the progress of flyer. I apologize for the delay| 30 Minute Meeting","DSC"
+2023-11-13,"Lukas Hager","Education","Graduate Student","questions about age group and mapping| Statistical Analysis","Other"
+2023-11-16,"Zhiyuan Yao",NA,"Undergraduate","Collecting/Looking For Data
+Data Wrangling and Cleaning
+Data Analysis|I am hoping to scrape the internet and various forms of social media for specific key terms like the names of films and actors| Data & Coding Consultation","DSC"
+2023-11-22,"Zhiyuan Yao","Civil and Environmental Engineering","Graduate Student","I have a question regarding QGIS or creating bivariate Choropleth maps in general. I have point data with the quantities that I want to create a choropleth of and I have a feature layer. I tried various vector processing functions within the processing toolbox but I couldn't get it to work.| Geospatial Analysis and GIS Support","DSC"
+2023-11-30,"Zhiyuan Yao",NA,NA,"We want to talk about the blog topics.| DataSquad Blog Discussion","DSC"
+2023-12-04,"Zhiyuan Yao","Events and Transportation","Undergraduate","log in issues|| Make an appointment with Zhiyuan","DSC"
+2023-12-06,"Zhiyuan Yao","Digital Humanities","Undergraduate","I am having difficulty with the basics of GIS and being able to bring my GIS files into Storymaps. It's very simple but I don;t know what to do.| Geospatial Analysis and GIS Support","DSC"
+2023-12-13,"Zhiyuan Yao","Political Science","Other","reading a .grd in ArcGis Pro. I just emailed you with the full description + files.| 30 Minute Meeting","DSC"
+2024-01-05,"Zhiyuan Yao",NA,"Faculty","I would like to geolink zip code data to publicly  available data (CDC Social Vulnerability Index, Opportunity Insights’ Social Capital Atlas, and Structural Racism Effect Index) to aid in analysis. I have some experience with python, but none in ArcGIS. Links for the data is provided in the next input box.
+
+Original data - Zip code
+
+Data to link :
+1. Opportunity Insights’ Social Capital Atlas - zip code
+2. CDC Social Vulnerability Index - Census tract
+3. Structural Racism Effect Index  -  Census tract 11-digit FIPS code| Geospatial Analysis and GIS Support","DSC"
+2024-01-08,"Zhiyuan Yao","Medicine","Faculty","Data Analysis
+Coding/Programming|Help w downloading python to code and create a spider plot for oncology research| Data & Coding Consultation","DSC"
+2024-02-01,"Zhiyuan Yao","Institute of the Environment and Sustainability","Undergraduate","Shapefile creation tips and resources to find data for St. Croix, VI.| 30 Minute Meeting","DSC"
+2024-02-01,"Zhiyuan Yao","Ecology and Evolutionary Biology","Graduate Student","Coding/Programming
+Installing/using R packages and Python modules|I have not used neural networks before, but I am developing a project that will use them. I think I will need a framework that offers more flexibility than nnet or neuralnet for R. I have been trying to use keras for R on my PC (Windows 11), but despite having Python, Keras and tensorflow installed I have been unable to get keras to run.
+I do not currently have data to use (I intend to build a network to use as part of an evolutionary simulation); I am just trying to experiment with keras to see if it will suit the project I have in mind.| Data & Coding Consultation","DSC"
+2024-02-02,"Zhiyuan Yao",NA,NA,"Meeting with Tim and Zhiyuan","DSC"
+2024-02-05,"Zhiyuan Yao","Chicana/o and Central American Studies","Undergraduate","I want to learn about GIS and mapping tools for my research. I have no experience with it.| 30 Minute Meeting","DSC"
+2024-02-14,"Zhiyuan Yao","Chicana/o and Central American Studies","Undergraduate","Learn how to unpack data, and extract the one I need for my project using census data.| 30 Minute Meeting","DSC"
+2024-02-15,"Zhiyuan Yao",NA,"Staff","Hello! I'm a new Instructional Designer for the DataX initiative. There are multiple projects we're working on including introductory data science/programming course development and creation of a new data/internet studies major. Ibraheem Ali recommended that I talk to folks at the Data Sciences Center to learn about your work and potentially find opportunities to work together. I look forward to meeting you!| 30 Minute Meeting","DSC"
+2024-02-26,"Zhiyuan Yao",NA,"Staff","machine learning|I have some data and a goal, but not sure which machine learning should I use to achieve that goal| Data & Coding Consultation","DSC"
+2024-02-28,"Jamie Jamison","Economics","Graduate Student","In this project, I'm hoping to show the changes in truck traffic caused by urban warehouses. I have data on the location of these warehouses and shapefiles of road networks with traffic information. I am hoping to get help getting started with some network analysis to identify routes between pairs of warehouses so that I can look at changes in traffic along these routes before and after the warehouses open.| Geospatial Analysis and GIS Support","DSC"
+2024-03-01,"Lukas Hager",NA,"Graduate Student","I need help including (possibly norming?) a continuous variable in a mixed effects logistic regression model.| Statistical Consultation","Other"
+2024-03-05,"Zhiyuan Yao","Ecology and Evolutionary Biology","Undergraduate","I am currently working within the Llyod-Smith Lab and we are working on developing GIS maps for a large data transfer from the lab to the Natural History Museum. I am mainly trying to figure out the logistics of how to make the maps themselves, how to make sure that when the post-doc leaves the data is still available to the lab or anyone who wants to access it, and what techniques would work best for the project. The samples we are mapping will be points (longitude and latitude) with associated metadata that will be added to the spreadsheet we are working with later.| Geospatial Analysis and GIS Support","DSC"
+2024-03-05,"Zhiyuan Yao","Digital Humanities","Undergraduate","I am from Dr. Kurtz’s Digital humanities capstone. I think it would be helpful for us to meet and chat about the analysis for the HIV points and random point generation discussed in the email thread.| 45 Minute Meeting","DSC"
+2024-03-07,"Zhiyuan Yao",NA,NA,"This is a meeting to start planning our IASSIST presentation, Charting a course for open data literacy education. Here's our proposal  - https://docs.google.com/document/d/1pKRSFTHK1uRODoJ2NeQh_hzUQrt0qe7JAx-9ozqAeK0/edit#heading=h.qpu5nuy1poz| Meeting with Tim and Zhiyuan","DSC"
+2024-03-19,"Zhiyuan Yao","Public Policy","Graduate Student","Assistance with calculating land use change| Geospatial Analysis and GIS Support","DSC"
+2024-03-08,"Zhiyuan Yao","Public Policy","Graduate Student","Assistance calculating land use change| Geospatial Analysis and GIS Support","DSC"
+2024-03-07,"Zhiyuan Yao","Digital Humanities","Faculty","Still trying to work through the zipcode/HOLC grade combination| 45 Minute Meeting","DSC"
+2024-03-11,"Zhiyuan Yao",NA,"Faculty","Need help with setting up access to my work by a Research Assistant. I would like to make the previously collected data inaccessible to the RA for research privacy reasons. I would like for them to have their own file to collect the data. I would need to access the data that the RA collects too.  I would prefer not to be unable to access that data in the future (if the RA leaves the position or if they are on vacation for example). I might need to set-up an ""organization"" to do that but need your help with that or any other solutions you may have.| 45 Minute Meeting","DSC"
+2024-03-11,"Zhiyuan Yao","Public Health","Graduate Student","ZCTAs to Supervisorial Districts| 45 Minute Meeting","DSC"
+2024-03-12,"Zhiyuan Yao","Urban Planning","Graduate Student","Activity space| 30 Minute Meeting","DSC"
+2024-03-14,"Zhiyuan Yao",NA,"Faculty","I need help figuring out why my files are not showing up on my iphone field maps; there is not access to the file in my newly created group too . The files do show up online.| 45 Minute Meeting","DSC"
+2024-03-19,"Zhiyuan Yao",NA,"Staff","Advice on how to move my organization from ArcMap desktop app to ArcGIS Pro by this summer, when ArcMap licenses will no longer be renewed by UCLA.| Geospatial Analysis and GIS Support","DSC"
+2024-03-19,"Zhiyuan Yao","Library","Staff","Mapathon planning| 45 Minute Meeting","DSC"
+2024-03-28,"Zhiyuan Yao","Economics","Graduate Student","I am using shapefiles from CalFire and I want to:
+1) Identify the census blocks that are burned by the fire, the ones that are 2 miles away, and the ones that are 5 miles away from the border of the fire.
+2) Identify the percentage of the census block that is burned by the fire.
+Export all of these to a .csv file.| Geospatial Analysis and GIS Support","DSC"
+2024-03-27,"Zhiyuan Yao","Library","Staff","Library Research Forum lightning talk prep| 45 Minute Meeting","DSC"
+2024-03-28,"Zhiyuan Yao",NA,"Graduate Student","how does ArcGIS Pro work. can i get access to it?| Geospatial Analysis and GIS Support","DSC"
+2024-04-04,"Zhiyuan Yao",NA,NA,"Meeting with Tim and Zhiyuan","DSC"
+2024-04-01,"Zhiyuan Yao","Economics","Graduate Student","Hello! I downloaded QGIS! I would like to get the census blocks that are burned by the wildfire and the percent of the block that is burned. I have imported the wildfire shapefile and the census block files.| 45 Minute Meeting","DSC"
+2024-04-08,"Zhiyuan Yao",NA,NA,"Tim and Zhiyuan","DSC"
+2024-04-04,"Zhiyuan Yao","Economics","Graduate Student","Hello! I have completed the Intersection between the blocks and the wildfires, but I am having an issue getting the area of each section and to use the dissolve command.| 45 Minute Meeting","DSC"
+2024-04-03,"Zhiyuan Yao",NA,NA,"Tim and Zhiyuan","DSC"
+2024-04-08,"Zhiyuan Yao",NA,NA,"IMLS Reviewer Meeting - Criteria. How to incoraporate diversity into the rubric?| Lesson Content Meeting","DSC"
+2024-04-12,"Zhiyuan Yao",NA,"Graduate Student","Collecting/Looking For Data
+Data Wrangling and Cleaning
+Coding/Programming|Create a paper using secondary data from IPEDS (financial) and HERI faculty attitudinal surveys. I need help blending two different data systems in R| Data & Coding Consultation","DSC"
+2024-04-15,"Zhiyuan Yao",NA,NA,"Brainstorming for newsletter| Tim and Zhiyuan","DSC"
+2024-04-25,"Zhiyuan Yao",NA,"Undergraduate","Collecting/Looking For Data
+Data Wrangling and Cleaning|I am doing a sentiment analysis project. My new take on that I wanted to attempt to do was with song lyrics to understand emotional themes, sentiment shifts, and cultural trends in music across time periods. Or alternatively analyzing the sentiment of songs for a particular artist. I need help with webscrapping for the data and general project planning| Data & Coding Consultation","DSC"
+2024-04-26,"Zhiyuan Yao",NA,"Undergraduate","Support talking through possible options and how-tos for mapping and visualization on ArcGIS Online. Attempting to create a heat map of child care in Los Angeles. Also could use support linking ArcGIS account with ArcGIS Pro. Thank you!| Geospatial Analysis and GIS Support","DSC"
+2024-04-29,"Zhiyuan Yao","Institute of the Environment and Sustainability","Undergraduate","Mainly I want to ask about configuring a zoom level for express maps, and other features of express maps in ArcGIS StoryMaps.| Geospatial Analysis and GIS Support","DSC"
+2024-05-03,"Zhiyuan Yao",NA,"Faculty","I would like to geocode some addresses for a research project using census tract data to identify social determinants of health.  I am interested in using ArCGIS.  I want to learn what is the pricing to perform an unlimited number of geocode requests using an API.  Google has a similar API and charges $200 per month.  I am curious to know what ArcGIS pricing is.| Geospatial Analysis and GIS Support","DSC"
+2024-04-29,"Zhiyuan Yao",NA,"Other","Collecting/Looking For Data
+digitizing historical data|Hi, I am a postdoc from the School of Medicine. I have a project using historical reports/tabulations. I am wondering if the Data Science Center can help me digitize some of my data. Many thanks.| Data & Coding Consultation","DSC"
+2024-04-29,"Zhiyuan Yao",NA,"Graduate Student","Trying to figure out how to do spatial regression with panel data, preferably in R but open to other approaches.| Geospatial Analysis and GIS Support","DSC"
+2024-05-02,"Zhiyuan Yao","Public Policy","Graduate Student","My main question is that I'm wondering what kind of spatial data there is out there on debt (personal/credit card debt, medical debt, student debt, etc). Found this map by Urban https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=medcoll&state=06&county=06033 but would love to find any kind of data on a smaller scale than the county scale, because I'm interested in Los Angeles or patterns across California. Aside from that, I'm also trying to think of what kinds of data I can find to look at gentrification around the E line metro stops in LA over time (my second idea if I'm not able to find data for debt).| Geospatial Analysis and GIS Support","DSC"
+2024-05-14,"Aimee Xu","Labor Studies","Undergraduate","Data Wrangling and Cleaning
+Coding/Programming
+GIS|I am so new to coding and need to make a map from my data that I have been collecting. I need to reverse geocode my addresses to find the Latitude and longitude, but first have to split these into columns and I need a code to do it because I have like 500 addresses.| Data & Coding Consultation","Other"
+2024-05-21,"DataSquad Walk-in",NA,"Undergraduate","ArcGIS","Datasquad"
+2024-04-23,"zhiyuanyao4",NA,"Staff","[https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing](https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing ""‌"")
+
+‌
+
+[https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395](https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395 ""smartCard-inline"")","Datasquad"
+2024-04-23,"zhiyuanyao4",NA,"Staff","[https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing](https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing ""‌"")
+
+‌
+
+[https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395](https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395 ""smartCard-inline"")","Datasquad"
+2024-04-23,"zhiyuanyao4",NA,"Staff","[https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing](https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing ""‌"")
+
+‌
+
+[https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395](https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395 ""smartCard-inline"")","Datasquad"
+2024-04-23,"zhiyuanyao4",NA,"Staff","[https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing](https://docs.google.com/document/d/1967a0VLyXfchE63iwU8S7mG5Ll_lCFnUYjZIYGvMfyA/edit?usp=sharing ""‌"")
+
+‌
+
+[https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395](https://uclalibrary.atlassian.net/servicedesk/customer/portal/17/LC-395 ""smartCard-inline"")","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
+2024-06-03,"emilygong_zhuying, timdennis23",NA,"Staff","For this project, update the script that’s here: [https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights](https://github.com/ucla-data-science-center/dsc-calendly-to-libinsights ""smartCard-inline"")
+
+To match the libinsights mappings found here: [https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0](https://docs.google.com/spreadsheets/d/1wcFBpOPd-2bM6W3Al_cmu57sILWLwfzoVH0Xo-MF-8o/edit#gid=0 ""smartCard-inline"")
+
+Since the script was working we adopted ‘administered event types’ for datasquad members, this has changed the shape of the data when exported and broke the script. Fix the script and we can then reorient all event types in calendly to match what the script expects.","Datasquad"
