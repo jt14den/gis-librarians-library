@@ -66,7 +66,7 @@ The fallout is documented. By December 2025, UCLA's ArcGIS Online platform had g
 This isn't a future risk. The gaps are active:
 
 - **ArcGIS Online** reached 230–240% of licensed storage capacity. UC-system negotiations with Esri on the license are underway but unresolved. OARC has taken on some platform responsibilities, but without a designated owner the support layer - consultations, instruction, data management, domain expertise - remains absent. Lowering the barrier to entry is not the same as provisioning the support.
-- **LARIAC access**: the Data Science Center still provisions EagleView accounts, but no one can help researchers understand what they're looking at. Domain expertise — which LiDAR vintage to use, how to process point clouds, what each product is good for — left with the position.
+- **LARIAC access**: the Data Science Center still provisions EagleView accounts, but no one can help researchers understand what they're looking at. Domain expertise left with the position: which LiDAR vintage to use, how to process point clouds, what each product is good for.
 - **Research consultations**: averaged 72-82 per year across urban planning, ecology, public health, digital humanities, and community organizations through the final year of the position. No equivalent GIS consultation service has been established since the position was vacated in August 2024.
 - **GIS instruction**: a for-credit GIS course co-taught with the Fielding School of Public Health, guest lectures across 4+ departments, library workshops reaching 400+ attendees, and UC-wide workshop organizing (617 attendees in the 2023 cycle alone). We are not aware of any unit that has announced equivalent programming since.
 - **Data lifecycle support**: metadata, provenance documentation, and preservation planning for spatial datasets produced by UCLA researchers. Without a librarian managing it, the datasets are still being created; they're just no longer being described in ways that make them findable or reusable.
@@ -117,7 +117,7 @@ R1 institutions with no dedicated GIS librarian
 :::
 
 ::: {.callout-note}
-**A note on special-focus institutions:** Twenty of the 187 R1s are medical schools, health science campuses, or single-discipline institutes like Caltech, NJIT, and RPI. They rarely have GIS librarians, for structural reasons that have nothing to do with library priorities. Including them pulls the overall average down in a way that obscures what's normal for a comprehensive research university.
+**A note on special-focus institutions:** Twenty of the 187 R1s are medical schools, health science campuses, or single-discipline institutes like Caltech, NJIT, and RPI. Health sciences campuses in particular represent a structurally different model -- where GIS tends to sit outside the library entirely when it exists at all -- so their absence here isn't directly comparable to a comprehensive R1's staffing decisions. Including them pulls the overall average down in a way that obscures what's normal for a comprehensive research university.
 
 The comparisons that matter for UCLA are with the institutions it actually competes with. Among the top 25 R&D spenders nationally, nearly all have dedicated GIS staff. Among UC comprehensive campuses, 6 of 9 do. Among UCLA's direct peers in the US News public rankings, every single one does. Each is documented below.
 :::
@@ -151,10 +151,10 @@ p <- size_summary %>%
             vjust = 0.5, size = 3.5, color = "white", fontface = "bold") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1)) +
   scale_fill_manual(values = c(
-    "Small"      = "#6baed6",
-    "Medium"     = "#3182bd",
-    "Large"      = "#08519c",
-    "Very Large" = "#08306b"
+    "Small"      = "#8BB8EE",
+    "Medium"     = "#2774AE",
+    "Large"      = "#005587",
+    "Very Large" = "#003B5C"
   )) +
   labs(
     x = "Institution Size (Carnegie)",
@@ -181,7 +181,11 @@ size_summary %>%
 
 ### By Institutional Type
 
-Special-focus institutions (medical schools, law schools, and other single-discipline centers) almost never have dedicated GIS librarians, which is expected. The more meaningful comparison is among comprehensive doctoral universities.
+Special-focus institutions (medical schools, law schools, and other single-discipline centers) almost never have dedicated GIS librarians, which is expected. The structural reason is worth naming. Health sciences campuses organized primarily around clinical research and graduate training, without an integrated comprehensive research library, tend to house geospatial support outside the library entirely when they have it at all. At UCSF, geospatial resources exist but are administered by the Real Estate Business Intelligence unit, not the library; the primary use case is campus operations and facilities planning. The research consultation and instruction mandate that drives dedicated library GIS positions at comprehensive universities doesn't translate to institutions focused on health sciences graduate training and clinical care in the same way.
+
+Where peer institutions are cited as evidence of GIS support in health-sciences contexts, the detail worth checking is organizational location. Johns Hopkins, often cited as an example, has three GIS specialists in Digital Scholarship and Data Services in the Sheridan Libraries -- not in the Welch Medical Library, which routes users to those central services. What makes JHU an example of good practice isn't a medical library staffing decision; it's that centralized GIS expertise in the main research library extends to serve the full campus. That's the pattern among comprehensive R1s broadly, and it's what makes the placement of expertise -- not just whether it exists somewhere on campus -- the relevant question.
+
+The more meaningful comparison is among comprehensive doctoral universities.
 
 ```{r type-chart}
 type_summary <- inst %>%
@@ -201,7 +205,7 @@ p3 <- type_summary %>%
   ggplot(aes(x = reorder(type_simple, pct), y = pct,
              text = paste0(type_simple, "<br>", n_with, " of ", n, "<br>",
                            percent(pct, accuracy = 1)))) +
-  geom_col(fill = "#2c7bb6") +
+  geom_col(fill = "#2774AE") +
   geom_text(aes(y = pct / 2, label = paste0(n_with, "/", n)),
             hjust = 0.5, size = 3.5, color = "white", fontface = "bold") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1.1)) +
@@ -230,13 +234,13 @@ p4 <- team_summary %>%
              text = paste0(team_size_cat, " person(s)<br>",
                            n_insts, " institutions (",
                            percent(pct, accuracy = 1), ")"))) +
-  geom_col(fill = "#2c7bb6") +
+  geom_col(fill = "#2774AE") +
   geom_text(aes(y = n_insts / 2, label = n_insts),
             vjust = 0.5, size = 4, color = "white", fontface = "bold") +
   labs(
     x = "GIS team size",
     y = "Number of institutions",
-    title = "One GIS librarian is the floor at comparable institutions — many have built teams"
+    title = "One GIS librarian is the floor at comparable institutions; many have built teams"
   ) +
   theme_minimal(base_size = 13)
 
@@ -285,7 +289,7 @@ p5 <- tier_data %>%
   ggplot(aes(x = rd_tier, y = pct,
              text = paste0(rd_tier, "<br>", n_with, " of ", n, "<br>",
                            percent(pct, accuracy = 1)))) +
-  geom_col(fill = "#2c7bb6") +
+  geom_col(fill = "#2774AE") +
   geom_text(aes(y = pct / 2, label = paste0(n_with, "/", n)),
             vjust = 0.5, size = 3.5, color = "white", fontface = "bold") +
   scale_y_continuous(labels = percent_format(), limits = c(0, 1.1)) +
@@ -341,40 +345,72 @@ top25 %>%
 ### R&D Expenditure vs. GIS Support (All R1s)
 
 ```{r herd-scatter}
+medical_campuses <- c(
+  "Baylor College of Medicine",
+  "Medical University of South Carolina",
+  "The University of Tennessee Health Science Center",
+  "The University of Texas Health Science Center at Houston",
+  "The University of Texas Health Science Center at San Antonio",
+  "University of California-San Francisco",
+  "University of Maryland, Baltimore",
+  "University of Nebraska Medical Center",
+  "University of Texas Southwestern Medical Center",
+  "Weill Medical College of Cornell University"
+)
+
 scatter_data <- inst %>%
   filter(!is.na(herd_rd_billions)) %>%
   mutate(
-    label = case_when(
+    marker_group = case_when(
       str_detect(Institution, "Los Angeles") ~ "UCLA",
-      herd_rank_2024 <= 15 ~ str_extract(Institution, "[A-Za-z ]+(?= University|-| at)"),
-      TRUE ~ NA_character_
+      Institution %in% medical_campuses       ~ "Health sciences campus",
+      TRUE                                    ~ "Comprehensive R1"
     ),
-    highlight = str_detect(Institution, "Los Angeles")
+    hover_text = paste0(
+      Institution, "<br>HERD Rank: #", herd_rank_2024,
+      "<br>R&D: $", round(herd_rd_billions, 2), "B<br>",
+      if_else(has_gis, "✓ Has GIS librarian", "✗ No GIS librarian")
+    )
   )
 
-p6 <- plot_ly(scatter_data,
-  x = ~herd_rd_billions,
-  y = ~jitter(as.integer(has_gis), amount = 0.05),
-  color = ~highlight,
-  colors = c("FALSE" = "#2c7bb6", "TRUE" = "#FF6B35"),
-  text = ~paste0(Institution, "<br>HERD Rank: #", herd_rank_2024,
-                 "<br>R&D: $", round(herd_rd_billions, 2), "B<br>",
-                 if_else(has_gis, "✓ Has GIS librarian", "✗ No GIS librarian")),
-  hoverinfo = "text",
-  type = "scatter",
-  mode = "markers",
-  marker = list(size = 8, opacity = 0.7)
-) %>%
+p6 <- plot_ly() %>%
+  add_trace(
+    data = filter(scatter_data, marker_group == "Comprehensive R1"),
+    x = ~herd_rd_billions,
+    y = ~jitter(as.integer(has_gis), amount = 0.05),
+    type = "scatter", mode = "markers", name = "Comprehensive R1",
+    marker = list(size = 8, opacity = 0.65, color = "#333333"),
+    text = ~hover_text, hoverinfo = "text"
+  ) %>%
+  add_trace(
+    data = filter(scatter_data, marker_group == "Health sciences campus"),
+    x = ~herd_rd_billions,
+    y = ~jitter(as.integer(has_gis), amount = 0.05),
+    type = "scatter", mode = "markers", name = "Health sciences campus",
+    marker = list(size = 8, opacity = 0.8,
+                  color = "rgba(0,0,0,0)",
+                  line = list(color = "#999999", width = 1.5)),
+    text = ~hover_text, hoverinfo = "text"
+  ) %>%
+  add_trace(
+    data = filter(scatter_data, marker_group == "UCLA"),
+    x = ~herd_rd_billions,
+    y = ~jitter(as.integer(has_gis), amount = 0.05),
+    type = "scatter", mode = "markers", name = "UCLA",
+    marker = list(size = 11, opacity = 1, color = "#2774AE"),
+    text = ~hover_text, hoverinfo = "text"
+  ) %>%
   layout(
     xaxis = list(title = "Total R&D Expenditure FY2024 (billions USD)"),
     yaxis = list(title = "", tickvals = c(0, 1),
                  ticktext = c("No GIS librarian", "Has GIS librarian")),
     title = "Research expenditure and GIS librarian presence across all R1s",
-    showlegend = FALSE,
+    showlegend = TRUE,
+    legend = list(orientation = "h", y = -0.18, x = 0),
     annotations = list(
       list(x = 1.88, y = 0.1, text = "UCLA", showarrow = TRUE,
            arrowhead = 2, ax = 30, ay = -30,
-           font = list(color = "#FF6B35", size = 12))
+           font = list(color = "#2774AE", size = 12))
     )
   )
 
@@ -397,7 +433,7 @@ map_data <- inst %>%
     by = "Institution"
   ) %>%
   mutate(
-    color = if_else(has_gis, "#2c7bb6", "#d73027"),
+    color = if_else(has_gis, "#2774AE", "#D60000"),
     radius = case_when(
       team_size == 0 ~ 6,
       team_size == 1 ~ 8,
@@ -439,8 +475,8 @@ leaflet(map_data) %>%
   # UCLA highlighted with a distinct marker
   addCircleMarkers(
     lng = ucla_lon, lat = ucla_lat,
-    color = "#FF6B35",
-    fillColor = "#FF6B35",
+    color = "#005587",
+    fillColor = "#FFD100",
     fillOpacity = 1,
     radius = 10,
     weight = 2,
@@ -451,7 +487,7 @@ leaflet(map_data) %>%
   ) %>%
   addLegend(
     position = "bottomright",
-    colors = c("#2c7bb6", "#d73027", "#FF6B35"),
+    colors = c("#2774AE", "#D60000", "#FFD100"),
     labels = c("Has dedicated GIS librarian", "No dedicated GIS librarian", "UCLA"),
     title = "GIS Support Status",
     opacity = 0.8
@@ -482,11 +518,11 @@ UCLA hired Dr. Zhiyuan Yao as Spatial Data Science Librarian following that reco
 
 Rather than hire the GIS assistant the 2018 report anticipated, UCLA eliminated the position entirely.
 
-The rationale offered for that decision is worth addressing directly, because it shapes what a restoration argument has to overcome. Two objections have circulated: that research libraries shouldn't maintain specialized staff, and that GIS falls outside the library's core scope. These are worth taking seriously because they are specific claims — and because they contradict each other.
+The rationale offered for that decision is worth addressing directly, because it shapes what a restoration argument has to overcome. Two objections have circulated: that research libraries shouldn't maintain specialized staff, and that GIS falls outside the library's core scope. These are worth taking seriously because they are specific claims, and because they contradict each other.
 
-The argument that libraries shouldn't have specialized staff runs directly against what peer institutions have chosen. Berkeley, Michigan, Minnesota, UNC, Washington, and Ohio State all have GIS specialists embedded in their libraries. These aren't outliers operating outside normal library practice; they are the norm at research libraries at UCLA's level. Specialization in data services, subject-specific research support, and digital scholarship is what research libraries do. A functional organizational model — the direction library restructuring typically moves — is defined by exactly this kind of deep domain expertise rather than generalist coverage.
+The argument that libraries shouldn't have specialized staff runs directly against what peer institutions have chosen. Berkeley, Michigan, Minnesota, UNC, Washington, and Ohio State all have GIS specialists embedded in their libraries. These aren't outliers operating outside normal library practice; they are the norm at research libraries at UCLA's level. Specialization in data services, subject-specific research support, and digital scholarship is what research libraries do. A functional organizational model (the direction library restructuring typically moves) is defined by exactly this kind of deep domain expertise rather than generalist coverage.
 
-The argument that GIS is outside the library's scope depends entirely on how that scope is defined. If the library's function includes research consultation, data curation, instruction, and making information findable and usable over time, then GIS expertise sits squarely within it. The OARC report named the vacant library GIS position as a root cause of the current platform crisis — not the absence of an IT administrator, not a gap in research computing. The report's own framing is that GIS expertise in the library is what was missing. Defining the library's scope narrowly enough to exclude GIS also excludes the specific function that OARC identified as necessary.
+The argument that GIS is outside the library's scope depends entirely on how that scope is defined. If the library's function includes research consultation, data curation, instruction, and making information findable and usable over time, then GIS expertise sits squarely within it. The OARC report named the vacant library GIS position as a root cause of the current platform crisis, not the absence of an IT administrator or a gap in research computing. The report's own framing is that GIS expertise in the library is what was missing. Defining the library's scope narrowly enough to exclude GIS also excludes the specific function that OARC identified as necessary.
 
 | Year | Event |
 |---|---|
@@ -587,7 +623,7 @@ peers %>%
 
 One detail in that table is worth sitting with. Several of these institutions also operate dedicated campus GIS centers alongside their library staff. Berkeley has the Geospatial Innovation Facility (GIF). NC State has the Center for Geospatial Analytics. Harvard has the Center for Geographic Analysis. These are substantial, well-resourced operations. And none of them replaced the library GIS position. Berkeley has the GIF and still employs two library GIS staff.
 
-That's because the two functions don't do the same thing. A campus GIS center runs research projects, trains specialists, and builds tools. Library GIS staff support researchers across every department who aren't GIS specialists, provide data access and curation, consult on projects that cross disciplinary lines, and maintain the documentation — metadata, provenance, format guides — that makes spatial data usable years after a project ends. Peer institutions treat these as complementary because they are.
+That's because the two functions don't do the same thing. A campus GIS center runs research projects, trains specialists, and builds tools. Library GIS staff support researchers across every department who aren't GIS specialists, provide data access and curation, consult on projects that cross disciplinary lines, and maintain the documentation (metadata, provenance, format guides) that makes spatial data usable years after a project ends. Peer institutions treat these as complementary because they are.
 
 UCLA has neither a dedicated campus GIS center nor library GIS support. It's the only institution in this peer group running without either.
 
@@ -627,7 +663,7 @@ DSC consultation records show the position averaged **72-82 booked consultations
 p_annual <- consult_annual %>%
   mutate(
     label     = if_else(year == 2024, paste0(consultations, "*"), as.character(consultations)),
-    bar_color = if_else(year == 2024, "#aab8c2", "#2c7bb6")
+    bar_color = if_else(year == 2024, "#8BB8EE", "#2774AE")
   ) %>%
   plot_ly(
     x = ~year, y = ~consultations,
@@ -637,7 +673,7 @@ p_annual <- consult_annual %>%
     hovertemplate = "%{x}: %{y} consultations<extra></extra>"
   ) %>%
   layout(
-    title = list(text = "GIS consultations ran 72–82/year — data ends June 2024, two months before position was vacated", font = list(size = 14)),
+    title = list(text = "GIS consultations ran 72-82/year; data through June 2024, two months before position was vacated", font = list(size = 14)),
     xaxis = list(title = "", tickvals = c(2021, 2022, 2023, 2024),
                  ticktext = c("2021", "2022", "2023", "2024 (partial)")),
     yaxis = list(title = "Consultations", range = c(0, 100)),
@@ -661,7 +697,7 @@ p_dept <- plot_ly(
   top_dept,
   x = ~n, y = ~reorder(department, n),
   type = "bar", orientation = "h",
-  marker = list(color = "#2c7bb6"),
+  marker = list(color = "#2774AE"),
   hovertemplate = "%{y}: %{x} consultations<extra></extra>"
 ) %>%
   layout(
@@ -681,7 +717,7 @@ p_cat <- plot_ly(
   consult_categories,
   x = ~n, y = ~reorder(category, n),
   type = "bar", orientation = "h",
-  marker = list(color = "#2c7bb6"),
+  marker = list(color = "#2774AE"),
   hovertemplate = "%{y}: %{x}<extra></extra>"
 ) %>%
   layout(
@@ -797,7 +833,7 @@ The cost of the position is roughly twice the annual cost of the current broken 
 - **Caveats:** Staffing changes rapidly. This represents a snapshot; positions may have been filled or vacated since collection. Institutions with vacant GIS positions are coded as "no dedicated GIS librarian" unless a named person was confirmed.
 - **Carnegie classification source:** 2025 Carnegie Classification of Institutions of Higher Education
 
-**Consultation data:** The DSC consultation records analyzed here come from a booking system (Calendly/Acuity-based) used by Dr. Zhiyuan Yao from approximately 2020 through June 2024. Records include appointment date, requester department, and appointment reason/tags. Rows were filtered to Yao bookings and tagged service categories. Internal meetings, interviews, and DataSquad sessions were excluded. This captures booked one-on-one consultations only — it excludes walk-in questions, email-only interactions, classroom sessions, and platform administration work. The 2024 data runs through June; the position was vacated in August 2024. Consultation data from the period August 2024–present is not available because no equivalent booking system is in active use for GIS consultations.
+**Consultation data:** The DSC consultation records analyzed here come from a booking system (Calendly/Acuity-based) used by Dr. Zhiyuan Yao from approximately 2020 through June 2024. Records include appointment date, requester department, and appointment reason/tags. Rows were filtered to Yao bookings and tagged service categories. Internal meetings, interviews, and DataSquad sessions were excluded. This captures booked one-on-one consultations only: it excludes walk-in questions, email-only interactions, classroom sessions, and platform administration work. The 2024 data runs through June; the position was vacated in August 2024. Consultation data from the period August 2024–present is not available because no equivalent booking system is in active use for GIS consultations.
 
 ---
 
