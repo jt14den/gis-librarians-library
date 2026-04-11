@@ -1,7 +1,10 @@
 ---
 title: "GIS Librarians at US R1 Universities"
 subtitle: "How UCLA Became the Only UC Campus to Cut Its Dedicated GIS Librarian"
-author: "Tim Dennis, UCLA Library Data Science Center"
+author:
+  - name: Tim Dennis
+    orcid: 0000-0001-6632-3812
+    affiliation: UCLA Library Data Science Center
 date: today
 date-format: "MMMM D, YYYY"
 ---
