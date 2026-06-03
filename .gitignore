@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 output/
+
+# Esri org data exports and draft comms (not part of this project)
+docs/Organization*.csv
+docs/esri-*.md
