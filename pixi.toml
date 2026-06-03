@@ -6,6 +6,7 @@ channels = ["conda-forge"]
 platforms = ["osx-arm64", "osx-64", "linux-64"]
 
 [dependencies]
+python = ">=3.8"
 r-base = ">=4.4"
 quarto = ">=1.5"
 r-tidyverse = "*"
@@ -21,3 +22,5 @@ r-htmltools = "*"
 data-prep = "Rscript report/data-prep.R"
 render = "quarto render report/"
 build = { depends-on = ["data-prep", "render"] }
+scanability = "python scripts/scanability.py docs/index.html docs/directory.html"
+scan-verbose = "python scripts/scanability.py -v docs/index.html"
