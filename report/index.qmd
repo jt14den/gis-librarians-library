@@ -53,6 +53,12 @@ consult_categories <- read_csv("../output/consult_categories.csv", show_col_type
 n_consult_last_ay <- 74
 ```
 
+::: {.callout-note}
+## Update
+
+UCLA has committed to hiring a dedicated GIS librarian.
+:::
+
 ::: {.callout-important}
 ## Finding and Recommendation
 
