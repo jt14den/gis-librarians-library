@@ -56,7 +56,7 @@ n_consult_last_ay <- 74
 ::: {.callout-note}
 ## Update
 
-UCLA has committed to hiring a dedicated GIS librarian.
+In August 2026, UCLA committed to hiring a dedicated GIS librarian.
 :::
 
 ::: {.callout-important}
