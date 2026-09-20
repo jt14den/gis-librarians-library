@@ -1,7 +1,8 @@
 ---
 title: "GIS Librarian Directory"
 subtitle: "All verified GIS librarians and specialists at US R1 universities"
-date: today
+date: "2026-03-24"
+date-modified: today
 date-format: "MMMM D, YYYY"
 ---
 
