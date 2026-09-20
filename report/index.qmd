@@ -468,7 +468,7 @@ map_data <- inst %>%
 ucla_row <- map_data %>% filter(str_detect(Institution, "Los Angeles"))
 
 leaflet(map_data) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$OpenStreetMap) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat,
     color = ~color,
