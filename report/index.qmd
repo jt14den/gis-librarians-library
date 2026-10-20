@@ -129,7 +129,7 @@ R1 institutions with no dedicated GIS librarian
 ::: {.callout-note}
 **A note on special-focus institutions:** Twenty of the 187 R1s are medical schools, health science campuses, or single-discipline institutes like Caltech, NJIT, and RPI. Health sciences campuses in particular represent a structurally different model, where GIS tends to sit outside the library entirely when it exists at all, so their absence here isn't directly comparable to a comprehensive R1's staffing decisions. Including them pulls the overall average down in a way that obscures what's normal for a comprehensive research university.
 
-The comparisons that matter for UCLA are with the institutions it actually competes with. Among the top 25 R&D spenders nationally, nearly all have dedicated GIS staff. Among UC comprehensive campuses, 6 of 9 do. Among UCLA's direct peers in the US News public rankings, every single one does. Each is documented below.
+The comparisons that matter for UCLA are with the institutions it actually competes with. Among the top 25 R&D spenders nationally, nearly all have dedicated GIS staff. Among UC comprehensive campuses, 7 of 9 do. Among UCLA's direct peers in the US News public rankings, every single one does. Each is documented below.
 :::
 
 ### What counts as a "dedicated GIS librarian"?
