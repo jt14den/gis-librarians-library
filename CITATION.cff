@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "GIS Librarians at US R1 Universities: How UCLA Became the Only UC Campus to Cut Its Dedicated GIS Librarian"
+message: "If you use this work, please cite it as below."
+type: generic
+authors:
+  - family-names: Dennis
+    given-names: Tim
+    orcid: "https://orcid.org/0000-0001-6632-3812"
+    affiliation: "UCLA Library Data Science Center"
+repository-code: "https://github.com/jt14den/gis-librarians-library"
+license: CC-BY-4.0
+version: "1.0.0"
+abstract: "Survey of dedicated GIS librarian staffing at US Carnegie R1 universities, with
+  peer benchmarking against top R&D spenders, UC campuses, and UCLA's direct US News peers,
+  and a case study of UCLA's elimination of its GIS librarian position in 2024."
+keywords:
+  - GIS librarians
+  - academic libraries
+  - geospatial data services
+  - research data services
+  - UCLA
